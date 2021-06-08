@@ -1,53 +1,22 @@
+@font-face {
+   font-family: 'Titre';
+   src: url("/ViaodaLibre-Regular.113b9c5e.ttf");
+}
+
+@font-face {
+   font-family: 'Titre2';
+   src: url("/DancingScript-VariableFont_wght.29e67798.ttf");
+}
+
+@font-face {
+   font-family: 'Text-medium';
+   src: url("/Roboto-Medium.e0ccafc4.ttf");
+}
+
 body{
   margin:0;
   padding: 0;
-}
-
-.content {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-	position: relative;
-	justify-content: flex-start;
-  background-color: #121a27;
-  justify-content: center;
-
-}
-
-.gallery {
-	display: flex;
-	margin-left: 12vw;
-	padding-right: 12vw;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 70vw;
-  position: relative;
-  top:-17px;
-}
-
-h1{
-  color:white;
-  font-size: 10vw;
-  display: flex;
-}
-
-.gallery__text-inner {
-	display: block;
-}
-
-.gallery__item {
-  margin: 0 30px;
-	display: grid;
-	grid-template-columns: 8rem 330px;
-}
-
-img{
-  width: 500px;
-  height: 500px;
+  font-size: 1.2em;
 }
 
 

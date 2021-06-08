@@ -8,7 +8,7 @@ Projet qui a pour but de créer un support pour des reportages photos/articles.
 
 ## Auteurs
 
-Article : Vanille LAGADEC
+Article : Vanille LAGADEC  
 Photo : Noé PHILIPPE
 
 Développement : Noé PHILIPPE

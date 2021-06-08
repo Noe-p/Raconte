@@ -1,0 +1,18 @@
+aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121a27;
+  height: 7vh;
+}
+
+a{
+  font-family: 'Text-medium';
+  color:white;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+/*# sourceMappingURL=/aside.4b7e9381.css.map */

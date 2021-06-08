@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf":[["ViaodaLibre-Regular.113b9c5e.ttf","src/fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf"],"src/fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf"],"./../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf":[["DancingScript-VariableFont_wght.29e67798.ttf","src/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf"],"src/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf"],"./../fonts/Roboto/Roboto-Medium.ttf":[["Roboto-Medium.e0ccafc4.ttf","src/fonts/Roboto/Roboto-Medium.ttf"],"src/fonts/Roboto/Roboto-Medium.ttf"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37463" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34189" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
