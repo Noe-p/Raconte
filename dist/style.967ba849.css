@@ -13,10 +13,16 @@
    src: url("/Roboto-Medium.e0ccafc4.ttf");
 }
 
+@font-face {
+   font-family: 'Text-regular';
+   src: url("/Roboto-Regular.2c995fc2.ttf");
+}
+
 body{
   margin:0;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1em;
+  font-family: 'Text-regular';
 }
 
 

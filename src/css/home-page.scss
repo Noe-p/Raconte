@@ -1,0 +1,107 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	height: 93vh;
+	position: relative;
+	justify-content: flex-start;
+  background-color: #121a27;
+  justify-content: center;
+
+}
+
+.gallery {
+	display: flex;
+	margin-left: 12vw;
+	padding-right: 12vw;
+}
+
+header {
+	width: 50vw;
+	line-height: 0.8;
+	margin: 30vh 11vw 0 7vw;
+
+
+	.title1{
+		font-family: 'Titre';
+	  color:white;
+	  font-size: 10vw;
+		display: block;
+		letter-spacing: -1vw;
+	}
+
+	.title1 span{
+		animation-name: letter-wave;
+		animation-duration: 0.5s;
+		position: relative;
+		top: 0;
+		opacity: 1;
+		transition: top 0.2s;
+	}
+
+	.title1 span:nth-child(2){
+		animation-delay: 0.1s;
+	}
+	.title1 span:nth-child(3){
+		animation-delay: 0.2s;
+	}
+	.title1 span:nth-child(4){
+		animation-delay: 0.3s;
+	}
+	.title1 span:nth-child(5){
+		animation-delay: 0.4s;
+	}
+	.title1 span:nth-child(6){
+		animation-delay: 0.5s;
+	}
+	.title1 span:nth-child(7){
+		animation-delay: 0.6s;
+	}
+
+	@keyframes letter-wave {
+		50%{
+			top: -25%;
+		}
+	}
+
+	.title1 span:hover{
+		animation-name: letter-wave;
+		animation-duration: 0.2s;
+		top: -10%;
+	}
+
+
+	.title2{
+		font-family: 'Titre';
+		color:white;
+		font-size: 1.5vw;
+		display: block;
+	}
+}
+
+.gallery__item {
+  margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 27vw;
+	word-break: break-all;
+
+	h2{
+		font-family: 'Titre';
+		color:white;
+		text-align: center;
+	}
+
+	p{
+		color:white;
+		text-align: center;
+	}
+
+
+
+	.gallery__item-img{
+
+		img{
+		  width: 27vw;;
+		}
+	}
+}

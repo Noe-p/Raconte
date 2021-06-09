@@ -3278,28 +3278,6 @@ var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// Preload images
-var preloadImages = function preloadImages() {
-  var selector = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'img';
-  return new Promise(function (resolve) {
-    imagesLoaded(document.querySelectorAll(selector), {
-      background: true
-    }, resolve);
-  });
-}; // Preload images
-
-
-var preloadFonts = function preloadFonts(id) {
-  return new Promise(function (resolve) {
-    WebFont.load({
-      typekit: {
-        id: id
-      },
-      active: resolve
-    });
-  });
-};
-
 var lscroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
@@ -3333,7 +3311,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34189" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40953" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

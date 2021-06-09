@@ -26,7 +26,49 @@ header {
   color:white;
   font-size: 10vw;
 	display: block;
+	letter-spacing: -1vw;
 }
+
+.title1 span{
+	animation-name: letter-wave;
+	animation-duration: 0.5s;
+	position: relative;
+	top: 0;
+	opacity: 1;
+	transition: top 0.2s;
+}
+
+.title1 span:nth-child(2){
+	animation-delay: 0.1s;
+}
+.title1 span:nth-child(3){
+	animation-delay: 0.2s;
+}
+.title1 span:nth-child(4){
+	animation-delay: 0.3s;
+}
+.title1 span:nth-child(5){
+	animation-delay: 0.4s;
+}
+.title1 span:nth-child(6){
+	animation-delay: 0.5s;
+}
+.title1 span:nth-child(7){
+	animation-delay: 0.6s;
+}
+
+@keyframes letter-wave {
+	50%{
+		top: -25%;
+	}
+}
+
+.title1 span:hover{
+	animation-name: letter-wave;
+	animation-duration: 0.2s;
+	top: -10%;
+}
+
 
 .title2{
 	font-family: 'Titre';
@@ -42,8 +84,7 @@ header {
 }
 
 img{
-  width: 500px;
-  height: 500px;
+  width: 27vw;;
 }
 
 
