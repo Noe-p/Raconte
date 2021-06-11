@@ -85,8 +85,44 @@ header .title2 {
   color: white;
   text-align: center;
 }
+.gallery__item .gallery__item-img {
+  position: relative;
+}
 .gallery__item .gallery__item-img img {
   width: 27vw;
+}
+.gallery__item .gallery__item-img .macaron img {
+  width: 120px;
+}
+.gallery__item .gallery__item-img .macaron {
+  position: absolute;
+  top: -60px;
+  left: -60px;
+  transition: all 0.2s;
+  animation-name: rotate-macaron;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  transform: rotate(0deg);
+  animation-timing-function: linear;
+  border-radius: 50%;
+  border: solid 1px #fcb90e;
+  margin: 0;
+}
+.gallery__item .gallery__item-img .macaron:hover {
+  animation-name: macaron-hover;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes rotate-macaron {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes macaron-hover {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=/home-page.cdfbd4cd.css.map */

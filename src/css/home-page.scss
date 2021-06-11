@@ -96,12 +96,49 @@ header {
 		text-align: center;
 	}
 
-
-
 	.gallery__item-img{
+		position: relative;
 
 		img{
 		  width: 27vw;;
+		}
+
+		.macaron img{
+			width: 120px;
+		}
+
+		.macaron{
+			position: absolute;
+			top:-60px;
+			left: -60px;
+			transition: all 0.2s;
+			animation-name: rotate-macaron;
+			animation-duration: 30s;
+			animation-iteration-count: infinite;
+			transform: rotate(0deg);
+			animation-timing-function: linear;
+			border-radius: 50%;
+			border: solid 1px #fcb90e;
+			margin: 0;
+		}
+		
+		.macaron:hover{
+			animation-name: macaron-hover;
+			animation-duration: 0.9s;
+			animation-timing-function:ease-in-out;
+			animation-iteration-count: 1;
+		}
+
+		@keyframes rotate-macaron{
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes macaron-hover{
+			100%{
+				transform: rotate(360deg);
+			}
 		}
 	}
 }
