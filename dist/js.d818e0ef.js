@@ -3283,6 +3283,22 @@ var lscroll = new _locomotiveScroll.default({
   smooth: true,
   direction: 'horizontal'
 });
+var person = document.querySelector('.person');
+lscroll.on('scroll', function (obj) {
+  if (obj.scroll.x % 60 > 0 && obj.scroll.x % 60 < 10) {
+    person.setAttribute("src", "/man2.9d339d9e.png");
+  } else if (obj.scroll.x % 60 > 10 && obj.scroll.x % 60 < 20) {
+    person.setAttribute("src", "/man3.5126bd79.png");
+  } else if (obj.scroll.x % 60 > 20 && obj.scroll.x % 60 < 30) {
+    person.setAttribute("src", "/man4.f832e58e.png");
+  } else if (obj.scroll.x % 60 > 30 && obj.scroll.x % 60 < 40) {
+    person.setAttribute("src", "/man5.448df43f.png");
+  } else if (obj.scroll.x % 60 > 40 && obj.scroll.x % 60 < 50) {
+    person.setAttribute("src", "/man6.f8a85719.png");
+  } else {
+    person.setAttribute("src", "/man1.fa1006bf.png");
+  }
+});
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -3311,7 +3327,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43285" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39541" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -63,13 +63,6 @@ header {
 		}
 	}
 
-	.title1 span:hover{
-		animation-name: letter-wave;
-		animation-duration: 0.2s;
-		top: -10%;
-	}
-
-
 	.title2{
 		font-family: 'Titre';
 		color:white;
@@ -78,8 +71,16 @@ header {
 	}
 }
 
+.person{
+	width: 20;
+	height: 70px;
+	position: absolute;
+	top: 92%;
+}
+
 .gallery__item {
   margin-left: 30px;
+	margin-right: 180px;
 	display: flex;
 	flex-direction: column;
 	width: 27vw;
@@ -103,29 +104,26 @@ header {
 		  width: 27vw;;
 		}
 
-		.macaron img{
-			width: 120px;
-		}
-
 		.macaron{
 			position: absolute;
-			top:-60px;
-			left: -60px;
-			transition: all 0.2s;
+			width: 150px;
+			top:-75px;
+			left: -75px;
+			font-family: Titre;
+			font-size: 7em;
 			animation-name: rotate-macaron;
-			animation-duration: 30s;
+			animation-duration: 60s;
 			animation-iteration-count: infinite;
 			transform: rotate(0deg);
 			animation-timing-function: linear;
+			letter-spacing: 10px;
 			border-radius: 50%;
-			border: solid 1px #fcb90e;
-			margin: 0;
+			border: solid 1px #b4630e;
 		}
-		
+
 		.macaron:hover{
 			animation-name: macaron-hover;
-			animation-duration: 0.9s;
-			animation-timing-function:ease-in-out;
+			animation-duration: 0.5s;
 			animation-iteration-count: 1;
 		}
 
