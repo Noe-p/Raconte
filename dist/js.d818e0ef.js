@@ -3278,26 +3278,59 @@ var _locomotiveScroll = _interopRequireDefault(require("locomotive-scroll"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// Scroll horizontal
 var lscroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
   direction: 'horizontal'
-});
-var person = document.querySelector('.person');
+}); //loader
+
+var loader = document.querySelector('.loader');
+var main = document.querySelector('.main');
+var navbar = document.querySelector('.navbar');
+window.addEventListener('load', function () {
+  loader.classList.add('hidden');
+  navbar.classList.remove('hidden');
+  main.classList.remove('hidden');
+}); // Animation stick man
+
+var person = document.querySelector('.stickman');
+var direction = 0;
 lscroll.on('scroll', function (obj) {
-  if (obj.scroll.x % 60 > 0 && obj.scroll.x % 60 < 10) {
-    person.setAttribute("src", "/man2.9d339d9e.png");
-  } else if (obj.scroll.x % 60 > 10 && obj.scroll.x % 60 < 20) {
-    person.setAttribute("src", "/man3.5126bd79.png");
-  } else if (obj.scroll.x % 60 > 20 && obj.scroll.x % 60 < 30) {
-    person.setAttribute("src", "/man4.f832e58e.png");
-  } else if (obj.scroll.x % 60 > 30 && obj.scroll.x % 60 < 40) {
-    person.setAttribute("src", "/man5.448df43f.png");
-  } else if (obj.scroll.x % 60 > 40 && obj.scroll.x % 60 < 50) {
-    person.setAttribute("src", "/man6.f8a85719.png");
-  } else {
-    person.setAttribute("src", "/man1.fa1006bf.png");
+  var change_img = obj.scroll.x % 60;
+  console.log(change_img - direction);
+
+  if (change_img - direction > 0 && change_img - direction < 5) {
+    if (change_img > 0 && change_img < 10) {
+      person.setAttribute("src", "/man2.9d339d9e.png");
+    } else if (change_img > 10 && change_img < 20) {
+      person.setAttribute("src", "/man3.5126bd79.png");
+    } else if (change_img > 20 && change_img < 30) {
+      person.setAttribute("src", "/man4.f832e58e.png");
+    } else if (change_img > 30 && change_img < 40) {
+      person.setAttribute("src", "/man5.448df43f.png");
+    } else if (change_img > 40 && change_img < 50) {
+      person.setAttribute("src", "/man6.f8a85719.png");
+    } else {
+      person.setAttribute("src", "/man1.fa1006bf.png");
+    }
+  } else if (change_img - direction < 0 && change_img - direction > -5) {
+    if (change_img > 0 && change_img < 10) {
+      person.setAttribute("src", "/man2_g.b9cbf5e5.png");
+    } else if (change_img > 10 && change_img < 20) {
+      person.setAttribute("src", "/man3_g.30d5f3b3.png");
+    } else if (change_img > 20 && change_img < 30) {
+      person.setAttribute("src", "/man4_g.d2693391.png");
+    } else if (change_img > 30 && change_img < 40) {
+      person.setAttribute("src", "/man5_g.9f483ea2.png");
+    } else if (change_img > 40 && change_img < 50) {
+      person.setAttribute("src", "/man6_g.ccbe238f.png");
+    } else {
+      person.setAttribute("src", "/man1_g.8da08b5f.png");
+    }
   }
+
+  direction = change_img;
 });
 },{"locomotive-scroll":"node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -3327,7 +3360,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39541" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41757" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

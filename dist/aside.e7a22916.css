@@ -1,0 +1,18 @@
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121a27;
+  height: 7vh;
+  padding: 10px 3vw 0 3vw;
+}
+
+a {
+  font-family: "Text-medium";
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=/aside.e7a22916.css.map */

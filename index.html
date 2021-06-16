@@ -6,16 +6,24 @@
 
     <link rel="stylesheet" type="text/css" href="src/css/locomotive-scroll.css" />
     <link rel="stylesheet" type="text/css" href="src/css/home-page.scss" />
-    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="src/css/aside.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.scss" />
+    <link rel="stylesheet" type="text/css" href="src/css/aside.scss" />
   </head>
 
   <body>
-    <aside>
-      <a href="#">menu</a>
-      <a href="#">about</a>
+    <div class="loader">
+      <h1>Ca charge</h1>
+    </div>
+    <aside class="navbar hidden">
+      <a href="index.html">Raconte</a>
+      <div class="item_nav_left">
+        <a href="#">Menu</a>
+        <a href="#">À propos</a>
+      </div>
     </aside>
-    <main data-scroll-container>
+    <img class="stickman" src="src/img/man6_g.png" alt="man1">
+
+    <main data-scroll-container class="main hidden">
       <div class="content">
         <div class="gallery">
           <header>
@@ -30,13 +38,14 @@
               </span>
               <span class="title2" data-scroll data-scroll-speed="-2" data-scroll-direction="vertical">lor sit amet, consectetur adipisicing elit, sed do eiusmod...</span>
           </header>
-          <div data-scroll data-scroll-speed="-10">
-            <img class="person" src="src/img/man3.png" alt="man1">
-          </div>
+
           <figure class="gallery__item" data-scroll data-scroll-speed="1">
-            <h2>Antonio et Yann</h2>
+            <h2>Anthony et Yann</h2>
             <div class="gallery__item-img">
               <img src="src/img/antonio-yann.jpg" alt="antonio-yann">
+              <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing </br>elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </br>velit esse cillum dolore eu fugiat nul</br>la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br> officia deserunt mollit anim id est laborum.</p>
+              </div>
               <a href="#">
                 <svg class="macaron" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
                   <path id="curve" fill="transparent"
@@ -53,12 +62,14 @@
                 </svg>
               </a>
             </div>
-            <p>Ceci est une petite description</p>
           </figure>
           <figure class="gallery__item" data-scroll data-scroll-speed="1">
             <h2>Autre titre</h2>
             <div class="gallery__item-img">
               <img src="src/img/2.jpg" alt="img2">
+              <div class="description">
+                <p>Ceci est une petite description <br/> et là une autre</p>
+              </div>
               <a href="#">
                 <svg class="macaron" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
                   <path id="curve" fill="transparent"
@@ -75,16 +86,29 @@
                 </svg>
               </a>
             </div>
-            <p>Ceci est une petite description <br/> et là une autre</p>
           </figure>
           <figure class="gallery__item" data-scroll data-scroll-speed="1">
+            <h2>Autre titre</h2>
             <div class="gallery__item-img">
-              <img src="src/img/3.jpg" alt="img3">
-            </div>
-          </figure>
-          <figure class="gallery__item" data-scroll data-scroll-speed="1">
-            <div class="gallery__item-img">
-              <img src="src/img/4.jpg" alt="img4">
+              <img src="src/img/2.jpg" alt="img2">
+              <div class="description">
+                <p>Ceci est une petite description <br/> et là une autre</p>
+              </div>
+              <a href="#">
+                <svg class="macaron" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                  <path id="curve" fill="transparent"
+                    d="
+                    M 200, 200
+                    m -160, 0
+                    a 160,160 0 1,0 320,0
+                    a 160,160 0 1,0 -320,0"/>
+                  <text>
+                    <textPath href="#curve" fill="#b4630e">
+                      voir le reportage
+                    </textPath>
+                  </text>
+                </svg>
+              </a>
             </div>
           </figure>
         </div>
