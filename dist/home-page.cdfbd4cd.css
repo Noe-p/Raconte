@@ -64,12 +64,19 @@ header .title2 {
   display: block;
 }
 
-.stickman {
-  height: 70px;
+.vanille, .noe {
+  height: 110px;
   position: fixed;
-  top: 88%;
-  left: 50%;
+  top: 83%;
   z-index: 2000;
+}
+
+.vanille {
+  left: 48%;
+}
+
+.noe {
+  left: 52%;
 }
 
 .gallery__item {
