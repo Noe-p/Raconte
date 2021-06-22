@@ -67,7 +67,7 @@ header .title2 {
 .vanille, .noe {
   height: 110px;
   position: fixed;
-  top: 83%;
+  bottom: 10px;
   z-index: 2000;
 }
 
@@ -145,7 +145,7 @@ header .title2 {
   top: -75px;
   left: -75px;
   font-family: Titre;
-  font-size: 7em;
+  font-size: 6.5em;
   animation-name: rotate-macaron;
   animation-duration: 60s;
   animation-iteration-count: infinite;

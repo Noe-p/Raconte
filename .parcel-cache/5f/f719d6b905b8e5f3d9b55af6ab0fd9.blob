@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Raconte</title>
+
+    <link rel="stylesheet" type="text/css" href="eb32efb47546cd4d44d8261f4dd51545">
+    <link rel="stylesheet" type="text/css" href="8f20fcace5cdc2a6fa33535594123f78">
+    <link rel="stylesheet" type="text/css" href="e703dafcf5dbfeeb9710457eddfeb853">
+    <link rel="stylesheet" type="text/css" href="b3581128bf2b220d37a03841614b8de9">
+  </head>
+
+  <body>
+    <div class="loader">
+      <h1>Ca charge</h1>
+    </div>
+
+    <aside class="navbar hidden">
+      <a class="item_nav_index" href="6e234a58d77b31a5ce8cbcbe7f331ce3">Raconte</a>
+      <div class="item_nav_left">
+        <a href="#">Menu</a>
+        <a href="#">À propos</a>
+      </div>
+    </aside>
+
+    <img class="noe" src="8929c92573d4b6faeffffde41bc3ef0c" alt="man1">
+    <img class="vanille" src="c927527c9ae7a7890678dd313cd8b6d4" alt="man1">
+
+    <main data-scroll-container="" class="main hidden">
+      <div class="content">
+        <div class="gallery">
+          <header>
+              <span class="title1" data-scroll="" data-scroll-speed="5" data-scroll-direction="vertical">
+                <span>R</span>
+                <span>a</span>
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>e</span>
+              </span>
+              <span class="title2" data-scroll="" data-scroll-speed="-2" data-scroll-direction="vertical">lor sit amet, consectetur adipisicing elit, sed do eiusmod...</span>
+          </header>
+
+          <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+            <h2>Anthony et Yann</h2>
+            <div class="gallery__item-img">
+              <img src="4f25c2606d2746024578a832cd435cb4" alt="antonio-yann">
+              <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br>elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <br>velit esse cillum dolore eu fugiat nul<br>la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br> officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <a href="#">
+                <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                  <path id="curve" fill="transparent" d="
+                    M 200, 200
+                    m -160, 0
+                    a 160,160 0 1,0 320,0
+                    a 160,160 0 1,0 -320,0"></path>
+                  <text>
+                    <textPath href="#curve" fill="#b4630e">
+                      voir le reportage
+                    </textPath>
+                  </text>
+                </svg>
+              </a>
+            </div>
+          </figure>
+          <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+            <h2>Autre titre</h2>
+            <div class="gallery__item-img">
+              <img src="8493f2e6b22d5600481c1816e54c5263" alt="img2">
+              <div class="description">
+                <p>Ceci est une petite description <br> et là une autre</p>
+              </div>
+              <a href="#">
+                <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                  <path id="curve" fill="transparent" d="
+                    M 200, 200
+                    m -160, 0
+                    a 160,160 0 1,0 320,0
+                    a 160,160 0 1,0 -320,0"></path>
+                  <text>
+                    <textPath href="#curve" fill="#b4630e">
+                      voir le reportage
+                    </textPath>
+                  </text>
+                </svg>
+              </a>
+            </div>
+          </figure>
+          <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+            <h2>Autre titre</h2>
+            <div class="gallery__item-img">
+              <img src="8493f2e6b22d5600481c1816e54c5263" alt="img2">
+              <div class="description">
+                <p>Ceci est une petite description <br> et là une autre</p>
+              </div>
+              <a href="#">
+                <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                  <path id="curve" fill="transparent" d="
+                    M 200, 200
+                    m -160, 0
+                    a 160,160 0 1,0 320,0
+                    a 160,160 0 1,0 -320,0"></path>
+                  <text>
+                    <textPath href="#curve" fill="#b4630e">
+                      voir le reportage
+                    </textPath>
+                  </text>
+                </svg>
+              </a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </main>
+
+    <script src="0fa2310e1cd0642250fafbb711d8b6ea"></script>
+
+  </body>
+</html>

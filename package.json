@@ -12,6 +12,9 @@
     "locomotive-scroll": "^4.1.1"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
     "sass": "^1.34.1"
   },
   "description": ""
