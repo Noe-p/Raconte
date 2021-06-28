@@ -71,19 +71,29 @@ header {
 	}
 }
 
-.vanille, .noe{
+.vanille img, .noe img{
+	opacity: 0;
 	height: 110px;
 	position:fixed;
 	bottom:10px;
 	z-index: 2000;
 }
 
-.vanille{
+.vanille img{
 	left: 48%;
 }
-.noe{
+.noe img{
 	left: 52%;
 }
+.noe img.open, .vanille img.open {
+	opacity:1;
+}
+
+.noe img.open_reverse, .vanille img.open_reverse {
+	opacity: 1;
+	transform: scaleX(-1);
+}
+
 .gallery__item {
   margin: -8vh 180px 0 30px;
 	display: flex;

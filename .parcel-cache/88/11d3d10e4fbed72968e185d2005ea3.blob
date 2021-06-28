@@ -1,0 +1,50 @@
+var _locomotiveScroll = require('locomotive-scroll');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
+// Scroll horizontal
+const lscroll = new _locomotiveScrollDefault.default({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  direction: 'horizontal'
+});
+// loader
+const loader = document.querySelector('.loader');
+const main = document.querySelector('.main');
+const navbar = document.querySelector('.navbar');
+window.addEventListener('load', () => {
+  loader.classList.add('hidden');
+  navbar.classList.remove('hidden');
+  main.classList.remove('hidden');
+});
+// Animation stickman
+let vanille = document.querySelector('.vanille');
+let noe = document.querySelector('.noe');
+let direction = 0;
+let speed = 10;
+// let stop = 1;
+let i = 0;
+lscroll.on('scroll', obj => {
+  let change_img = obj.scroll.x % speed;
+  /*if(stop){
+  setTimeout(function (){
+  stop=1;
+  vanille.setAttribute("src", "/vanille_stop.654beb58.png");
+  }, 500);
+  stop=0;
+  }*/
+  function switch_img(stickman, i) {
+    if (i == stickman.childElementCount - 1) {
+      stickman.children[i].classList.remove('open');
+      stickman.children[1].classList.add('open');
+      i = 0;
+    } else {
+      stickman.children[i].classList.remove('open');
+      stickman.children[i + 1].classList.add('open');
+    }
+    return i;
+  }
+  if (change_img >= speed - 1) {
+    i = switch_img(noe, i);
+    i++;
+  }
+});

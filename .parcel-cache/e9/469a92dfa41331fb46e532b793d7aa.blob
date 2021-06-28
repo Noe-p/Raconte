@@ -1,0 +1,96 @@
+var _locomotiveScroll = require('locomotive-scroll');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
+// Scroll horizontal
+const lscroll = new _locomotiveScrollDefault.default({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  direction: 'horizontal'
+});
+// loader
+const loader = document.querySelector('.loader');
+const main = document.querySelector('.main');
+const navbar = document.querySelector('.navbar');
+window.addEventListener('load', () => {
+  loader.classList.add('hidden');
+  navbar.classList.remove('hidden');
+  main.classList.remove('hidden');
+});
+// Animation stickman
+let vanille = document.querySelector('.vanille');
+let noe = document.querySelector('.noe');
+let direction = 0;
+let speed = 300;
+let stop = 1;
+let i, j;
+lscroll.on('scroll', obj => {
+  let change_img = obj.scroll.x % speed;
+  if (stop) {
+    setTimeout(function () {
+      stop = 1;
+      vanille.setAttribute("src", "/vanille_stop.654beb58.png");
+    }, 500);
+    stop = 0;
+  }
+  function switch_img(i) {
+    noe.children[i].classList.remove('open');
+    noe.children[i + 1].classList.add('open');
+  }
+  if (change_img - direction > 0 && change_img - direction < 5) {
+    if (change_img > speed / 12 * 0 && change_img < speed / 12 * 1) {
+      change_img(1);
+      vanille.setAttribute("src", "/vanille2_d.7cf80c51.png");
+    } else if (change_img > speed / 12 * 1 && change_img < speed / 12 * 2) {
+      vanille.setAttribute("src", "/vanille3_d.697fa0e2.png");
+      noe.children[1].classList.remove('open');
+      noe.children[2].classList.add('open');
+    } else if (change_img > speed / 12 * 2 && change_img < speed / 12 * 3) {
+      vanille.setAttribute("src", "/vanille4_d.bd814307.png");
+    } else if (change_img > speed / 12 * 3 && change_img < speed / 12 * 4) {
+      vanille.setAttribute("src", "/vanille5_d.361e4131.png");
+    } else if (change_img > speed / 12 * 4 && change_img < speed / 12 * 5) {
+      vanille.setAttribute("src", "/vanille6_d.5d594cb4.png");
+    } else if (change_img > speed / 12 * 5 && change_img < speed / 12 * 6) {
+      vanille.setAttribute("src", "/vanille7_d.288180a5.png");
+    } else if (change_img > speed / 12 * 6 && change_img < speed / 12 * 7) {
+      vanille.setAttribute("src", "/vanille8_d.0644e242.png");
+    } else if (change_img > speed / 12 * 7 && change_img < speed / 12 * 8) {
+      vanille.setAttribute("src", "/vanille9_d.251cde99.png");
+    } else if (change_img > speed / 12 * 8 && change_img < speed / 12 * 9) {
+      vanille.setAttribute("src", "/vanille10_d.66213bfd.png");
+    } else if (change_img > speed / 12 * 9 && change_img < speed / 12 * 10) {
+      vanille.setAttribute("src", "/vanille11_d.9c29a4e4.png");
+    } else if (change_img > speed / 12 * 10 && change_img < speed / 12 * 11) {
+      vanille.setAttribute("src", "/vanille12_d.ae5c3297.png");
+    } else {
+      vanille.setAttribute("src", "/vanille1_d.d3a91bda.png");
+    }
+  } else if (change_img - direction < 0 && change_img - direction > -5) {
+    if (change_img > speed / 12 * 0 && change_img < speed / 12 * 1) {
+      vanille.setAttribute("src", "/vanille2_g.1463155a.png");
+    } else if (change_img > speed / 12 * 1 && change_img < speed / 12 * 2) {
+      vanille.setAttribute("src", "/vanille3_g.d0a6951e.png");
+    } else if (change_img > speed / 12 * 2 && change_img < speed / 12 * 3) {
+      vanille.setAttribute("src", "/vanille4_g.79d698ce.png");
+    } else if (change_img > speed / 12 * 3 && change_img < speed / 12 * 4) {
+      vanille.setAttribute("src", "/vanille5_g.19b1f944.png");
+    } else if (change_img > speed / 12 * 4 && change_img < speed / 12 * 5) {
+      vanille.setAttribute("src", "/vanille6_g.43d642da.png");
+    } else if (change_img > speed / 12 * 5 && change_img < speed / 12 * 6) {
+      vanille.setAttribute("src", "/vanille7_g.9c429dd1.png");
+    } else if (change_img > speed / 12 * 6 && change_img < speed / 12 * 7) {
+      vanille.setAttribute("src", "/vanille8_g.a9afc110.png");
+    } else if (change_img > speed / 12 * 7 && change_img < speed / 12 * 8) {
+      vanille.setAttribute("src", "/vanille9_g.f79d2310.png");
+    } else if (change_img > speed / 12 * 8 && change_img < speed / 12 * 9) {
+      vanille.setAttribute("src", "/vanille10_g.ff037739.png");
+    } else if (change_img > speed / 12 * 9 && change_img < speed / 12 * 10) {
+      vanille.setAttribute("src", "/vanille11_g.19f63a1a.png");
+    } else if (change_img > speed / 12 * 10 && change_img < speed / 12 * 11) {
+      vanille.setAttribute("src", "/vanille12_g.8a369c80.png");
+    } else {
+      vanille.setAttribute("src", "/vanille1_g.b11ad9d7.png");
+    }
+  }
+  direction = change_img;
+});
