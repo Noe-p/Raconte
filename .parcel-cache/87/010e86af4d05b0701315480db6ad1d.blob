@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Text-menu";
+  src: url("Anton-Regular.HASH_REF_987484093377576f82c795ba084d8368.ttf");
+}
+.menu {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+  color: #121a27;
+  z-index: 2000;
+}
+.reportage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.reportage h1 {
+  display: flex;
+  font-family: "Text-menu";
+  font-size: 5vw;
+  margin: 0 10px 0 0;
+  padding-left: 20px;
+  border-bottom: solid 1px #121a27;
+  transition: all 0.2s;
+  text-align: left;
+  width: 90%;
+}
+.reportage h1:hover {
+  background-color: #121a27;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css.map */

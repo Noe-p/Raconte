@@ -1,0 +1,35 @@
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121a27;
+  height: 7vh;
+  padding: 10px 3vw 0 3vw;
+}
+
+a {
+  font-family: "Text";
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item_nav_left {
+  display: inline-flex;
+}
+.item_nav_left a::after {
+  position: relative;
+  content: "";
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+.item_nav_index {
+  position: absolute;
+  left: 10px;
+}

@@ -1,0 +1,6 @@
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+}

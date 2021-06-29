@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Titre";
+  src: url("ViaodaLibre-Regular.HASH_REF_e55da688047254464d7fd6901f4fe574.ttf");
+}
+@font-face {
+  font-family: "Titre2";
+  src: url("DancingScript-VariableFont_wght.HASH_REF_0b76d347e561f5fc923dd2c8b9c9ec63.ttf");
+}
+@font-face {
+  font-family: "Text-medium";
+  src: url("Roboto-Medium.HASH_REF_422c76e87468af2afaa2b8f967e8e72a.ttf");
+}
+@font-face {
+  font-family: "Text-regular";
+  src: url("Roboto-Regular.HASH_REF_ea65f99164e191a6890c08daa6cbe208.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-family: "Text-regular";
+}
+.navbar.hidden, .main.hidden, .stickman.hidden {
+  opacity: 0;
+}
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 100;
+}
+.loader h1 {
+  color: black;
+  font-family: "Titre";
+  font-size: 10vw;
+}
+.loader .load {
+  display: block;
+  content: "";
+  background-color: teal;
+}
+.loader.hidden {
+  display: none;
+}
+/*# sourceMappingURL=index.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css.map */

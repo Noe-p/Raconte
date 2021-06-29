@@ -1,0 +1,11 @@
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.menu.hidden {
+  opacity: 0;
+}

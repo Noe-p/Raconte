@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Titre";
+  src: url("3d603909aa0dfbd7e8aec742cfbda7b9");
+}
+@font-face {
+  font-family: "Titre2";
+  src: url("a1511193b16986b74bcb2ee867d9b07e");
+}
+@font-face {
+  font-family: "Text-medium";
+  src: url("d3d92ac75408bc51d493c30d27cd2ecf");
+}
+@font-face {
+  font-family: "Text-regular";
+  src: url("66c1f04163c93322bcab02b19e02fafe");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-family: "Text-regular";
+}
+.navbar.hidden, .main.hidden, .stickman.hidden {
+  opacity: 0;
+}
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(0);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 100;
+  opacity: 1;
+  transform: translateY(0);
+}
+.loader h1 {
+  color: black;
+  font-family: "Titre";
+  font-size: 10vw;
+}
+.loader .load {
+  display: block;
+  content: "";
+  background-color: teal;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  animation-name: load;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes load {
+  0% {
+    background-color: orange;
+  }
+  33% {
+    background-color: purple;
+  }
+  66% {
+    background-color: brown;
+  }
+}
+.loader.hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+  animation-name: end;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes end {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: 100;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 1;
+    z-index: 100;
+  }
+}

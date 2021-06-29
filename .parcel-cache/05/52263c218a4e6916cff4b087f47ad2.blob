@@ -1,0 +1,17 @@
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  color: #121a27;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu h1 {
+  text-align: left;
+}
+/*# sourceMappingURL=index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css.map */

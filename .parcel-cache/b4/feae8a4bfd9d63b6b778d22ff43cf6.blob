@@ -1,0 +1,10 @@
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+/*# sourceMappingURL=index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css.map */

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="c03222a1192e374a227eceadb0e2e19a">
+  <link rel="stylesheet" type="text/css" href="ab3745da7b0a0bd931081f118ab73e97">
+  <link rel="stylesheet" type="text/css" href="606d45188e8767d3221b9c83f7062412">
+  <link rel="stylesheet" type="text/css" href="91553abcf0464f8236dac5a27c07cfdc">
+</head>
+
+<body>
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+    <div class="load">
+
+    </div>
+  </div>
+
+  <aside class="hidden navbar">
+    <a class="item_nav_index" href="33edaf6d12d13fd3397234e18ac8a5e2">Raconte</a>
+    <div class="item_nav_left">
+      <a href="#">Menu</a>
+      <a href="#">À propos</a>
+    </div>
+  </aside>
+
+  <div class="hidden stickman">
+    <div class="noe">
+      <img class=" open" src="c722f194e3f6c8891d840b95d4a992d6" alt="noeStop">
+      <img src="5187fd6663ecd09b9df73cf73004d663" alt="noe1">
+      <img src="29af41bba184c3cfc107bc780a091f6c" alt="noe2">
+      <img src="57530fa8f042d23a09a3401b8718b628" alt="noe3">
+      <img src="25813c8dc509a1fe54cb26fc8f83fc9a" alt="noe4">
+      <img src="692a40ea7b28611649e69969b78471f2" alt="noe5">
+      <img src="c4aa13af2d1ce68b0f87aa5f10137ece" alt="noe6">
+      <img src="99170be43d799960e69d83d8f4a17eed" alt="noe7">
+      <img src="46af07ea4482723d2b885a141b9fe56b" alt="noe8">
+      <img src="6e1b99ede4b5b8526e0750c6e411d59f" alt="noe9">
+      <img src="00b6d1ee13c0972d1c62de0363648b94" alt="noe10">
+      <img src="5e638fa104b39d225eff8625a3dfb4f4" alt="noe11">
+      <img src="ea61ed3863c5ecf83b1986bb339ba979" alt="noe12">
+    </div>
+    <div class="vanille">
+      <img class=" open" src="5ad07af7c56968b6732b4109c9a50313" alt="vanilleStop">
+      <img src="a32c020102eef5e685cff528737f3467" alt="vanille1">
+      <img src="0fe36863e46e84eeb773af9c0b5276f6" alt="vanille2">
+      <img src="d08e4f1006009bd24a3bbec80e6ea992" alt="vanille3">
+      <img src="738bb3c13cc493c69f5563f429a98836" alt="vanille4">
+      <img src="482aeb6f3bd5f6ac13e819b2e2527be4" alt="vanille5">
+      <img src="69ae6539dae5ec9100b670c36b4e4f67" alt="vanille6">
+      <img src="f34090ce396bba561995610fe2bce2d4" alt="vanille7">
+      <img src="d7a9f25fb0e37711940f836c3370ac3f" alt="vanille8">
+      <img src="df960d5fffb45a858a293f96e1b22685" alt="vanille9">
+      <img src="a444dcc1515b648923ba0e36a169a1ec" alt="vanille10">
+      <img src="7285d7a44df058ecca8130981a7ff075" alt="vanille11">
+      <img src="2d02f3e6694a4956ea8cdbb520608e63" alt="vanille12">
+    </div>
+  </div>
+
+  <main data-scroll-container="" class="hidden main">
+    <div class="content">
+      <div class="gallery">
+        <header>
+          <span class="title1" data-scroll="" data-scroll-speed="5" data-scroll-direction="vertical">
+            <span>R</span>
+            <span>a</span>
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>e</span>
+          </span>
+          <span class="title2" data-scroll="" data-scroll-speed="-2" data-scroll-direction="vertical">lor sit amet, consectetur adipisicing elit, sed do eiusmod...</span>
+        </header>
+
+        <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+          <h2>Anthony et Yann</h2>
+          <div class="gallery__item-img">
+            <img src="70e44ab7332045e3d3b679028c80ee71" alt="antonio-yann">
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br>elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <br>velit esse cillum dolore eu fugiat nul<br>la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br> officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <a href="#">
+              <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                  M 200, 200
+                  m -160, 0
+                  a 160,160 0 1,0 320,0
+                  a 160,160 0 1,0 -320,0"></path>
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </figure>
+
+        <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+          <h2>Autre titre</h2>
+          <div class="gallery__item-img">
+            <img src="8eb7d16c176beef8bd2d13167282ef5a" alt="img1">
+            <div class="description">
+              <p>Ceci est une petite description <br> et là une autre</p>
+            </div>
+            <a href="#">
+              <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                  M 200, 200
+                  m -160, 0
+                  a 160,160 0 1,0 320,0
+                  a 160,160 0 1,0 -320,0"></path>
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </main>
+  <script src="dace7807c6de34c48677f8ff618ef877"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
+  color: #121a27;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu h1 {
+  text-align: center;
+}

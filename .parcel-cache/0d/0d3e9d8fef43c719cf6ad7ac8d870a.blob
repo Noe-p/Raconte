@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Raconte</title>
+    <link rel="stylesheet" type="text/css" href="8e02ca966da049880e467d1cb82e59be">
+    <link rel="stylesheet" type="text/css" href="d3b2baa45af9a5d346d39490c54bd7db">
+    <link rel="stylesheet" type="text/css" href="9619399525834110b12bc4796aa8b132">
+    <link rel="stylesheet" type="text/css" href="340266ad87fe7f93bacf95f3604309d1">
+  </head>
+  <body>
+
+  <aside class="navbar white">
+    <a class="item_nav_index" href="4f0c59dfd0fd683e87ca002d76b6513a">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu" href="1ef36529a799c780bee1573b87e501ae">Menu</a>
+      <a class="item-about" href="#">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="menu" data-scroll="" data-scroll-speed="5">
+      <div class="reportage">
+        <h1>Yann et Anthony</h1>
+        <h1>Autre titre</h1>
+        <h1>Encore un autre titre</h1>
+        <h1>Et là un autre titre</h1>
+        <h1>Aller un autre titre</h1>
+      </div>
+    </section>
+  </main>
+
+  </body>
+</html>
+<script src="2fbfcabc3285f1a8a31a48d6331795d9"></script>

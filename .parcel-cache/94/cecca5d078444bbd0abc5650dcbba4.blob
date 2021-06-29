@@ -1,0 +1,22 @@
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121a27;
+  height: 7vh;
+  padding: 10px 3vw 0 3vw;
+}
+
+a {
+  font-family: "Text";
+  color: white;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: teal;
+}
+
+.item_nav_index {
+  position: absolute;
+  left: 10px;
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Text-menu";
+  src: url("../fonts/Anton/Anton.ttf");
+}
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  color: #121a27;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reportage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+  text-align: left;
+  background-color: teal;
+}
+.reportage h1 {
+  background-color: brown;
+  font-family: "Text-menu";
+}

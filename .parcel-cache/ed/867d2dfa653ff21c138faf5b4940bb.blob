@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Text-menu";
+  src: url("469c4356b412ab8915cdeddf66dda4fd");
+}
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  color: #121a27;
+}
+.reportage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+  text-align: left;
+}
+.reportage h1 {
+  font-family: "Text-menu";
+  font-size: 5vw;
+  margin: 0 10px 15px 15%;
+  padding-left: 10px;
+  border-bottom: solid 1px #121a27;
+  width: 100%;
+}
+.reportage h1:hover {
+  background-color: #121a27;
+  color: white;
+}

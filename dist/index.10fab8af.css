@@ -1,11 +1,12 @@
 .content {
   display: flex;
   flex-direction: column;
-  height: 93vh;
+  height: 100vh;
   position: relative;
   justify-content: flex-start;
   background-color: #121a27;
   justify-content: center;
+  opacity: 1;
 }
 
 .gallery {
@@ -17,45 +18,13 @@
 header {
   width: 50vw;
   line-height: 0.8;
-  margin: 23vh 11vw 0 7vw;
+  margin: 20vh 11vw 0 7vw;
 }
 header .title1 {
   font-family: "Titre";
   color: white;
   font-size: 10vw;
   display: block;
-  letter-spacing: -1vw;
-}
-header .title1 span {
-  animation-name: letter-wave;
-  animation-duration: 0.5s;
-  position: relative;
-  top: 0;
-  opacity: 1;
-  transition: top 0.2s;
-}
-header .title1 span:nth-child(2) {
-  animation-delay: 0.1s;
-}
-header .title1 span:nth-child(3) {
-  animation-delay: 0.2s;
-}
-header .title1 span:nth-child(4) {
-  animation-delay: 0.3s;
-}
-header .title1 span:nth-child(5) {
-  animation-delay: 0.4s;
-}
-header .title1 span:nth-child(6) {
-  animation-delay: 0.5s;
-}
-header .title1 span:nth-child(7) {
-  animation-delay: 0.6s;
-}
-@keyframes letter-wave {
-  50% {
-    top: -25%;
-  }
 }
 header .title2 {
   font-family: "Titre";
@@ -64,12 +33,16 @@ header .title2 {
   display: block;
 }
 
+.stickman {
+  position: absolute;
+  z-index: 90;
+}
+
 .vanille img, .noe img {
   opacity: 0;
   height: 110px;
   position: fixed;
   bottom: 10px;
-  z-index: 2000;
 }
 
 .vanille img {
@@ -90,7 +63,7 @@ header .title2 {
 }
 
 .gallery__item {
-  margin: -8vh 180px 0 30px;
+  margin: 0 180px 0 30px;
   display: flex;
   flex-direction: column;
   width: 420px;
@@ -114,14 +87,12 @@ header .title2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Titre";
   max-width: 0;
   overflow: hidden;
   opacity: 0;
   display: flex;
   justify-content: center;
   max-height: 80%;
-  word-break: normal;
 }
 .gallery__item .gallery__item-img .description p {
   color: white;
@@ -139,7 +110,7 @@ header .title2 {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(46, 46, 46, 0.5);
+  background-color: rgba(31, 31, 31, 0.5);
   position: absolute;
   top: 0;
   left: 0;

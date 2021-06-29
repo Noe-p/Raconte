@@ -1,0 +1,24 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "lscroll", function () {
+  return lscroll;
+});
+var _locomotiveScroll = require('locomotive-scroll');
+var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
+// Scroll horizontal
+const lscroll = new _locomotiveScrollDefault.default({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  direction: 'horizontal'
+});
+// loader
+const loader = document.querySelector('.loader');
+const content = document.querySelector('.content');
+const navbar = document.querySelector('.navbar');
+const stickman = document.querySelector('.stickman');
+window.addEventListener('load', () => {
+  loader.classList.add('hidden');
+  navbar.classList.remove('hidden');
+  content.classList.remove('hidden');
+  stickman.classList.remove('hidden');
+});

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Text-menu";
+  src: url("Anton-Regular.HASH_REF_987484093377576f82c795ba084d8368.ttf");
+}
+.menu {
+  background-color: white;
+  opacity: 1;
+  width: 100vw;
+  color: #121a27;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.reportage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 150px;
+  text-align: left;
+  background-color: teal;
+}
+.reportage h1 {
+  background-color: brown;
+  font-family: "Text-menu";
+  font-size: 7vw;
+}
+/*# sourceMappingURL=index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css.map */

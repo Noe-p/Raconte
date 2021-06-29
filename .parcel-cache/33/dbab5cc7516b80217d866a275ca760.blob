@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Raconte</title>
+    <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b7ab87680d2fbca66d380165b587f725.css">
+    <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css">
+    <link rel="stylesheet" type="text/css" href="/index.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css">
+    <link rel="stylesheet" type="text/css" href="/index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css">
+  </head>
+  <body>
+
+  <aside class="navbar white">
+    <a class="item_nav_index" href="/index.html">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu" href="/menu.html">Menu</a>
+      <a class="item-about" href="#">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="menu" data-scroll="" data-scroll-speed="5">
+      <div class="reportage">
+        <h1>Yann et Anthony</h1>
+        <h1>Autre titre</h1>
+        <h1>Encore un autre titre</h1>
+        <h1>Et là un autre titre</h1>
+        <h1>Aller un autre titre</h1>
+      </div>
+    </section>
+  </main>
+
+  <script src="/menu.HASH_REF_f8dc6725a7532566c8f5d3a64bcfdc44.js"></script>
+  </body>
+</html>

@@ -1,23 +1,47 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
 // Scroll horizontal
+
 const lscroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
     direction: 'horizontal'
 });
 
+
 //loader
 const loader = document.querySelector('.loader');
-const main = document.querySelector('.main');
+const content = document.querySelector('.content');
 const navbar = document.querySelector('.navbar');
+const stickman = document.querySelector('.stickman');
 
 window.addEventListener('load', () => {
   loader.classList.add('hidden');
   navbar.classList.remove('hidden');
-  main.classList.remove('hidden');
+  content.classList.remove('hidden');
+  stickman.classList.remove('hidden');
 });
 
+//onClick
+const itemMenu = document.querySelector('.item-menu');
+const itemRaconte = document.querySelector('.item_nav_index');
+const menu = document.querySelector('.menu');
+
+itemMenu.onclick = function(){
+  content.classList.add('hidden');
+  stickman.classList.add('hidden');
+  navbar.classList.add('white');
+
+  menu.classList.remove('hidden');
+};
+
+itemRaconte.onclick = function(){
+  content.classList.remove('hidden');
+  stickman.classList.remove('hidden');
+  navbar.classList.remove('white');
+
+  menu.classList.add('hidden');
+};
 
 // Animation stickman
 let vanille = document.querySelector('.vanille');
