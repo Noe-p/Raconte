@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b7ab87680d2fbca66d380165b587f725.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_a549d9b46cfd4854ada1ec8a10fab8af.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css">
+</head>
+
+<body>
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar hidden">
+    <a class="item_nav_index" href="#">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu" href="#">Menu</a>
+      <a class="item-about" href="#">À propos</a>
+    </div>
+  </aside>
+
+  <div class="stickman hidden">
+    <div class="noe">
+      <img class=" open" src="/noe_stop.HASH_REF_b6f51cd9004cdcc17228c91e714fa961.png" alt="noeStop">
+      <img src="/noe1.HASH_REF_b329f221ad4dd1256e542a3f8a084ee7.png" alt="noe1">
+      <img src="/noe2.HASH_REF_196c233686aad803b68b111c759aff1d.png" alt="noe2">
+      <img src="/noe3.HASH_REF_a5486a4c087b2a8ee05437dfb827b2ab.png" alt="noe3">
+      <img src="/noe4.HASH_REF_225c2303c3058b6dde3342f4dbf025e6.png" alt="noe4">
+      <img src="/noe5.HASH_REF_ccf0282850c157ff14931ee4bd5ed4bf.png" alt="noe5">
+      <img src="/noe6.HASH_REF_5120a647da49488347acab8e0a275d22.png" alt="noe6">
+      <img src="/noe7.HASH_REF_aeb2d6609864bd6d2b331cfea80b00ab.png" alt="noe7">
+      <img src="/noe8.HASH_REF_1a392a597e9e729be809482e56027f6b.png" alt="noe8">
+      <img src="/noe9.HASH_REF_fc7d36f9f6a9415624c8f14deb1b5013.png" alt="noe9">
+      <img src="/noe10.HASH_REF_10f045b80425e3ff0e2fc2b0868d35fe.png" alt="noe10">
+      <img src="/noe11.HASH_REF_62d6e3614c19f2b6e761ddf8148d342d.png" alt="noe11">
+      <img src="/noe12.HASH_REF_e3c98a266743c16179ec1d1e371d8d55.png" alt="noe12">
+    </div>
+    <div class="vanille">
+      <img class=" open" src="/vanille_stop.HASH_REF_cbe8fd13aaa0007f3b3d249842c81bcd.png" alt="vanilleStop">
+      <img src="/vanille1.HASH_REF_6b39a7bad2155bd0975703999c4760c3.png" alt="vanille1">
+      <img src="/vanille2.HASH_REF_5dc6017574b70ad630e4099c65f7ed54.png" alt="vanille2">
+      <img src="/vanille3.HASH_REF_e3d2fb80134d62a161c138c33620ee3e.png" alt="vanille3">
+      <img src="/vanille4.HASH_REF_4d23b77bb08456915414d5d9a2a2c2aa.png" alt="vanille4">
+      <img src="/vanille5.HASH_REF_bd2faeb179d7be704507aca53e57f74c.png" alt="vanille5">
+      <img src="/vanille6.HASH_REF_8baa90f6de7c453a879010d27126ddea.png" alt="vanille6">
+      <img src="/vanille7.HASH_REF_1038a2883437e71ada49e2aaacacf61a.png" alt="vanille7">
+      <img src="/vanille8.HASH_REF_1961382ae4739d0203a21184d577ff14.png" alt="vanille8">
+      <img src="/vanille9.HASH_REF_1a492186ec2ae793f1081978aed5d1ca.png" alt="vanille9">
+      <img src="/vanille10.HASH_REF_47091d5d41e17f4d1af8fcccd4c60180.png" alt="vanille10">
+      <img src="/vanille11.HASH_REF_087cce7c2a3b54c6b26c70bd6fbaea7f.png" alt="vanille11">
+      <img src="/vanille12.HASH_REF_70560faf5cbc4b092c04f841296f2464.png" alt="vanille12">
+    </div>
+  </div>
+
+  <main data-scroll-container="">
+    <div class="content">
+      <div class="gallery">
+        <header>
+          <span class="title1" data-scroll="" data-scroll-speed="5" data-scroll-direction="vertical">
+            Raconte
+          </span>
+          <span class="title2" data-scroll="" data-scroll-speed="-2" data-scroll-direction="vertical">lor sit amet, consectetur adipisicing elit, sed do eiusmod...</span>
+        </header>
+
+        <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+          <h2>Anthony et Yann</h2>
+          <div class="gallery__item-img">
+            <img src="/antonio-yann.HASH_REF_876b6fc1992096fae61e2770650b3740.jpg" alt="antonio-yann">
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br>elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <br>velit esse cillum dolore eu fugiat nul<br>la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br> officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <a href="#">
+              <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                  M 200, 200
+                  m -160, 0
+                  a 160,160 0 1,0 320,0
+                  a 160,160 0 1,0 -320,0"></path>
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </figure>
+
+        <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+          <h2>Autre titre</h2>
+          <div class="gallery__item-img">
+            <img src="/1.HASH_REF_105892805e0d8b7fa846f61deff0ebbb.jpg" alt="img1">
+            <div class="description">
+              <p>Ceci est une petite description <br> et là une autre</p>
+            </div>
+            <a href="#">
+              <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                  M 200, 200
+                  m -160, 0
+                  a 160,160 0 1,0 320,0
+                  a 160,160 0 1,0 -320,0"></path>
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="/index.HASH_REF_062e9a7565ca912a5f7d6b832142d36c.js"></script>
+  <script src="/index.HASH_REF_34cf53682428ddf4e84b09effed7f98f.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+var _locomotiveScroll = require('locomotive-scroll');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
+// Scroll horizontal
+const lscroll = new _locomotiveScrollDefault.default({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  direction: 'horizontal'
+});
+// loader
+const loader = document.querySelector('.loader');
+const content = document.querySelector('.content');
+const navbar = document.querySelector('.navbar');
+const stickman = document.querySelector('.stickman');
+window.addEventListener('load', () => {
+  loader.classList.add('hidden');
+  navbar.classList.remove('hidden');
+  stickman.classList.remove('hidden');
+});
+// onClick
+const itemMenu = document.querySelector('.item-menu');
+const itemRaconte = document.querySelector('.item_nav_index');
+itemMenu.onclick = function () {
+  window.location.replace("src/menu.html");
+};
+itemRaconte.onclick = function () {
+  content.classList.remove('hidden');
+  navbar.classList.remove('white');
+};
+// Animation stickman
+let vanille = document.querySelector('.vanille');
+let noe = document.querySelector('.noe');
+let direction = 0;
+let speed = 300;
+let stop = 1;
+let nb_stick = noe.childElementCount;
+let reverse = null;
+lscroll.on('scroll', obj => {
+  let change_img = obj.scroll.x % speed;
+  function switch_img(stickman, i, reverse) {
+    for (var j = 0; j < nb_stick; j++) {
+      stickman.children[j].classList.remove('open');
+      stickman.children[j].classList.remove('open_reverse');
+    }
+    if (reverse == 1) {
+      stickman.children[i].classList.add('open_reverse');
+    } else {
+      stickman.children[i].classList.add('open');
+    }
+  }
+  if (stop) {
+    setTimeout(function () {
+      stop = 1;
+      switch_img(noe, 0, null);
+      switch_img(vanille, 0, null);
+    }, 500);
+    stop = 0;
+  }
+  if (change_img - direction > 0 && change_img - direction < 5) {
+    reverse = null;
+  } else if (change_img - direction < 0 && change_img - direction > -5) {
+    reverse = 1;
+  }
+  if (change_img > speed / nb_stick * 0 && change_img < speed / nb_stick * 1) {
+    switch_img(noe, 1, reverse);
+    switch_img(vanille, 1, reverse);
+  } else if (change_img > speed / nb_stick * 1 && change_img < speed / nb_stick * 2) {
+    switch_img(noe, 2, reverse);
+    switch_img(vanille, 2, reverse);
+  } else if (change_img > speed / nb_stick * 2 && change_img < speed / nb_stick * 3) {
+    switch_img(noe, 3, reverse);
+    switch_img(vanille, 3, reverse);
+  } else if (change_img > speed / nb_stick * 3 && change_img < speed / nb_stick * 4) {
+    switch_img(noe, 4, reverse);
+    switch_img(vanille, 4, reverse);
+  } else if (change_img > speed / nb_stick * 4 && change_img < speed / nb_stick * 5) {
+    switch_img(noe, 5, reverse);
+    switch_img(vanille, 5, reverse);
+  } else if (change_img > speed / nb_stick * 5 && change_img < speed / nb_stick * 6) {
+    switch_img(noe, 6, reverse);
+    switch_img(vanille, 6, reverse);
+  } else if (change_img > speed / nb_stick * 6 && change_img < speed / nb_stick * 7) {
+    switch_img(noe, 7, reverse);
+    switch_img(vanille, 7, reverse);
+  } else if (change_img > speed / nb_stick * 7 && change_img < speed / nb_stick * 8) {
+    switch_img(noe, 8, reverse);
+    switch_img(vanille, 8, reverse);
+  } else if (change_img > speed / nb_stick * 8 && change_img < speed / nb_stick * 9) {
+    switch_img(noe, 9, reverse);
+    switch_img(vanille, 9, reverse);
+  } else if (change_img > speed / nb_stick * 9 && change_img < speed / nb_stick * 10) {
+    switch_img(noe, 10, reverse);
+    switch_img(vanille, 10, reverse);
+  } else if (change_img > speed / nb_stick * 10 && change_img < speed / nb_stick * 11) {
+    switch_img(noe, 11, reverse);
+    switch_img(vanille, 11, reverse);
+  } else {
+    switch_img(noe, 12, reverse);
+    switch_img(vanille, 12, reverse);
+  }
+  direction = change_img;
+});

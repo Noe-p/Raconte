@@ -1,0 +1,11 @@
+//loader
+const loader = document.querySelector('.loader');
+const content = document.querySelector('.content');
+const navbar = document.querySelector('.navbar');
+const stickman = document.querySelector('.stickman');
+
+window.addEventListener('load', () => {
+  loader.classList.add('hidden');
+  navbar.classList.remove('hidden');
+  stickman.classList.remove('hidden');
+});
