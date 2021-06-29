@@ -35,6 +35,14 @@
 .reportage h1:hover {
   background-color: #121a27;
   color: white;
-  cursor: url("antonio-yann.650b3740.jpg"), auto;
+  cursor: pointer;
+}
+.front-img img {
+  position: absolute;
+  opacity: 0;
+  width: 400px;
+}
+.front-img img.open {
+  opacity: 1;
 }
 /*# sourceMappingURL=index.32592511.css.map */

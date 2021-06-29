@@ -20,10 +20,6 @@ body {
   font-size: 1em;
   font-family: "Text";
 }
-.cursor {
-  width: 20px;
-  height: 20px;
-}
 .loader {
   position: absolute;
   width: 100%;

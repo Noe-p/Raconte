@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b7ab87680d2fbca66d380165b587f725.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_8d723ed2cf6a67882e01685b32592511.css">
+</head>
+
+<body>
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index" href="#">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu" href="#">Menu</a>
+      <a class="item-about" href="#">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="menu hidden">
+      <figure class="reportage" data-scroll="" data-scroll-speed="1">
+        <h1>Yann et Anthony</h1>
+        <h1>Autre titre</h1>
+        <h1>Encore un autre titre</h1>
+        <h1>Et là un autre titre</h1>
+        <h1>Aller un autre titre</h1>
+        <h1>Autre titre</h1>
+        <h1>Encore un autre titre</h1>
+        <h1>Et là un autre titre</h1>
+        <h1>Aller un autre titre</h1>
+      </figure>
+    </section>
+
+    <div class="front-img">
+      <img data-scroll="" data-scroll-speed="-10" class="open" src="/antonio-yann.HASH_REF_876b6fc1992096fae61e2770650b3740.jpg" alt="antonio-yann">
+    </div>
+  </main>
+
+  <script src="/src/menu.HASH_REF_f8dc6725a7532566c8f5d3a64bcfdc44.js"></script>
+  <script src="/index.HASH_REF_34cf53682428ddf4e84b09effed7f98f.js"></script>
+</body>
+
+</html>
