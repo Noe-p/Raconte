@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"1ysUx":[function(require,module,exports) {
+})({"4YkLe":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
+var HMR_PORT = 35643;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "f8dc6725a7532566c8f5d3a64bcfdc44";
@@ -445,11 +445,47 @@ id) /*: string*/
 var _locomotiveScroll = require('locomotive-scroll');
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
+// Scroll horizontal
 const lscroll = new _locomotiveScrollDefault.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
   direction: 'vertical'
 });
+// onClick
+const itemRaconte = document.querySelector('.item_nav_index');
+const loader = document.querySelector('.loader');
+const menu = document.querySelector('.menu');
+const itemAbout = document.querySelector('.item-about');
+itemRaconte.onclick = function () {
+  loader.classList.add('open');
+  menu.classList.add('hidden');
+  setTimeout(() => {
+    window.location.replace("index.html");
+  }, 1000);
+};
+itemAbout.onclick = function () {
+  loader.classList.add('open');
+  menu.classList.add('hidden');
+  setTimeout(() => {
+    window.location.replace("about.html");
+  }, 1000);
+};
+// Image hover
+const reportage = document.querySelector('.reportage');
+const frontImg = document.querySelector('.front-img');
+for (var i = 0; i < reportage.childElementCount; i++) {
+  let reportageImg = reportage.children[i];
+  let img = frontImg.children[i];
+  reportageImg.onmouseover = function () {
+    img.classList.add('open');
+    document.addEventListener('mousemove', e => {
+      img.setAttribute("style", "top: " + (e.pageY - 200) + "px; left: " + (e.pageX + 100) + "px;");
+    });
+  };
+  reportageImg.onmouseout = function () {
+    img.classList.remove('open');
+  };
+}
 
 },{"locomotive-scroll":"3bzsC","@parcel/transformer-js/lib/esmodule-helpers.js":"41TfI"}],"3bzsC":[function(require,module,exports) {
 var define;
@@ -3112,6 +3148,6 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}]},["1ysUx","3Uxhu"], "3Uxhu", "parcelRequire7bc8")
+},{}]},["4YkLe","3Uxhu"], "3Uxhu", "parcelRequire7bc8")
 
 //# sourceMappingURL=menu.4bcfdc44.js.map

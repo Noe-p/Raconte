@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="8e02ca966da049880e467d1cb82e59be">
+  <link rel="stylesheet" type="text/css" href="d3b2baa45af9a5d346d39490c54bd7db">
+  <link rel="stylesheet" type="text/css" href="9619399525834110b12bc4796aa8b132">
+  <link rel="stylesheet" type="text/css" href="340266ad87fe7f93bacf95f3604309d1">
+  <link rel="stylesheet" type="text/css" href="340266ad87fe7f93bacf95f3604309d1">
+</head>
+
+<body>
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="menu hidden">
+      <figure class="reportage" data-scroll="" data-scroll-speed="1">
+        <h1>Yann et Anthony</h1>
+        <h1>Autre titre</h1>
+        <h1>Encore un autre titre</h1>
+        <h1>Et là un autre titre</h1>
+        <h1>Aller un autre titre</h1>
+      </figure>
+    </section>
+  </main>
+
+  <div class="front-img">
+    <img src="9cb275039d4f1f539a6a9e6045116930" alt="antonio-yann">
+    <img src="e7eb3969fc1bb61168044d4a3a22b3f1" alt="1">
+    <img src="7a28d2c5e5539fc670d560adaf52cbba" alt="2">
+    <img src="ca4d3b3b4027484c3292ac919c5ac317" alt="3">
+    <img src="a04e1e1f72b96675176dc26b5d92bcc1" alt="4">
+  </div>
+
+  <script src="9b5c25abd8d2ab154972cf218afb7da2"></script>
+  <script src="d3101c3f8643e03277ce85e2cabb4ab6"></script>
+</body>
+
+</html>

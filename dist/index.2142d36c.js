@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"21c8X":[function(require,module,exports) {
+})({"CQdCW":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
+var HMR_PORT = 35643;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "062e9a7565ca912a5f7d6b832142d36c";
@@ -453,12 +453,18 @@ const lscroll = new _locomotiveScrollDefault.default({
 });
 // onClick
 const itemMenu = document.querySelector('.item-menu');
-const itemRaconte = document.querySelector('.item_nav_index');
 const loader = document.querySelector('.loader');
+const itemAbout = document.querySelector('.item-about');
 itemMenu.onclick = function () {
   loader.classList.add('open');
   setTimeout(() => {
-    window.location.replace("src/menu.html");
+    window.location.replace("menu.html");
+  }, 1000);
+};
+itemAbout.onclick = function () {
+  loader.classList.add('open');
+  setTimeout(() => {
+    window.location.replace("about.html");
   }, 1000);
 };
 // Animation stickman
@@ -3196,6 +3202,6 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}]},["21c8X","3L8AI"], "3L8AI", "parcelRequire7bc8")
+},{}]},["CQdCW","3L8AI"], "3L8AI", "parcelRequire7bc8")
 
 //# sourceMappingURL=index.2142d36c.js.map

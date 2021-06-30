@@ -11,12 +11,17 @@ const lscroll = new LocomotiveScroll({
 //onClick
 
 const itemMenu = document.querySelector('.item-menu');
-const itemRaconte = document.querySelector('.item_nav_index');
 const loader = document.querySelector('.loader');
+const itemAbout = document.querySelector('.item-about');
 
 itemMenu.onclick = function(){
   loader.classList.add('open');
-  setTimeout(() => {  window.location.replace("src/menu.html"); }, 1000);
+  setTimeout(() => {  window.location.replace("menu.html"); }, 1000);
+};
+
+itemAbout.onclick = function(){
+  loader.classList.add('open');
+  setTimeout(() => {  window.location.replace("about.html"); }, 1000);
 };
 
 // Animation stickman

@@ -10,18 +10,26 @@ const lscroll = new LocomotiveScroll({
 
 
 // onClick
-const itemMenu = document.querySelector('.item-menu');
 const itemRaconte = document.querySelector('.item_nav_index');
 const loader = document.querySelector('.loader');
 const menu = document.querySelector('.menu');
+const itemAbout = document.querySelector('.item-about');
 
 
 itemRaconte.onclick = function(){
   loader.classList.add('open');
   menu.classList.add('hidden');
 
-  setTimeout(() => {  window.location.replace("../index.html"); }, 1000);
+  setTimeout(() => {  window.location.replace("index.html"); }, 1000);
 };
+
+itemAbout.onclick = function(){
+  loader.classList.add('open');
+  menu.classList.add('hidden');
+
+  setTimeout(() => {  window.location.replace("about.html"); }, 1000);
+};
+
 
 
 //Image hover
