@@ -5,7 +5,11 @@ import LocomotiveScroll from 'locomotive-scroll';
 const lscroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
-    direction: 'horizontal'
+    direction: 'horizontal',
+
+    mobile :{
+      direction : 'vertical'
+    }
 });
 
 //onClick
@@ -117,3 +121,14 @@ lscroll.on('scroll', (obj) => {
 
   direction = change_img;
 });
+
+//Responsive
+
+if(screen.width<=480){
+  let stickman = document.querySelector('.stickman');
+  let title1 = document.querySelector('.title1');
+  let title2 = document.querySelector('.title2');
+
+  stickman.classList.add('hidden');
+
+}

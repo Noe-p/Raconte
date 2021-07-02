@@ -3,16 +3,20 @@
   src: url("ViaodaLibre-Regular.1f4fe574.ttf");
 }
 @font-face {
-  font-family: "Text-bold";
+  font-family: "Text-black";
   src: url("Montserrat-Black.fa531184.ttf");
 }
 @font-face {
-  font-family: "Text-regular";
-  src: url("Roboto-Regular.a6cbe208.ttf");
+  font-family: "Text-bold";
+  src: url("Montserrat-SemiBold.cb277575.ttf");
 }
 @font-face {
   font-family: "Text";
   src: url("Montserrat-Regular.315e0a01.ttf");
+}
+@font-face {
+  font-family: "Text-titre";
+  src: url("Anton-Regular.084d8368.ttf");
 }
 body {
   margin: 0;
@@ -119,4 +123,9 @@ body {
     border-radius: 0;
   }
 }
-/*# sourceMappingURL=index.8a3ba367.css.map */
+@media all and (max-device-width: 480px) {
+  body {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=about.8a3ba367.css.map */

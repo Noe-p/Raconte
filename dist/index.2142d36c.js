@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"CQdCW":[function(require,module,exports) {
+})({"21c8X":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 35643;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "062e9a7565ca912a5f7d6b832142d36c";
@@ -449,7 +449,10 @@ var _locomotiveScrollDefault = _parcelHelpers.interopDefault(_locomotiveScroll);
 const lscroll = new _locomotiveScrollDefault.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  direction: 'horizontal'
+  direction: 'horizontal',
+  mobile: {
+    direction: 'vertical'
+  }
 });
 // onClick
 const itemMenu = document.querySelector('.item-menu');
@@ -540,6 +543,13 @@ lscroll.on('scroll', obj => {
   }
   direction = change_img;
 });
+// Responsive
+if (screen.width <= 480) {
+  let stickman = document.querySelector('.stickman');
+  let title1 = document.querySelector('.title1');
+  let title2 = document.querySelector('.title2');
+  stickman.classList.add('hidden');
+}
 
 },{"locomotive-scroll":"3bzsC","@parcel/transformer-js/lib/esmodule-helpers.js":"41TfI"}],"3bzsC":[function(require,module,exports) {
 var define;
@@ -3202,6 +3212,6 @@ exports.export = function (dest, destName, get) {
     get: get
   });
 };
-},{}]},["CQdCW","3L8AI"], "3L8AI", "parcelRequire7bc8")
+},{}]},["21c8X","3L8AI"], "3L8AI", "parcelRequire7bc8")
 
 //# sourceMappingURL=index.2142d36c.js.map

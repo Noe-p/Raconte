@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="/about.HASH_REF_b7ab87680d2fbca66d380165b587f725.css">
+  <link rel="stylesheet" type="text/css" href="/about.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css">
+  <link rel="stylesheet" type="text/css" href="/about.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css">
+  <link rel="stylesheet" type="text/css" href="/about.HASH_REF_f0c39a1f7987f693b44bd9f11478eea7.css">
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="about hidden">
+      <figure class="info" data-scroll="" data-scroll-speed="1">
+        <h1>À la recherche de vie atypique, nous essayons de partager des personnalités passionées.</h1>
+        <h2>Ces reportages sont des témoignages de personnes qui nous ont touchés et marqués.</h2>
+        <img data-scroll="" data-scroll-speed="3" src="/vanille-about.HASH_REF_f51ebc8c4a9f340f727f1df1fbfa2e24.jpg" alt="vanille-about">
+      </figure>
+    </section>
+  </main>
+
+  <script src="/about.HASH_REF_dc37a667ae4fd3b54dc7a9a67093a53e.js"></script>
+  <script src="/about.HASH_REF_34cf53682428ddf4e84b09effed7f98f.js"></script>
+</body>
+
+</html>

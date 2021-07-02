@@ -1,4 +1,11 @@
-aside {
+.navbar.white a {
+  color: #121a27;
+}
+.navbar.white a::before {
+  background-color: #121a27;
+}
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,84 +16,59 @@ aside {
   z-index: 90;
   width: 100%;
 }
-aside a {
+.navbar a {
   font-family: "Text";
   color: white;
   text-decoration: none;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-aside a:hover {
+.navbar a:hover {
   cursor: pointer;
 }
-
-.navbar.white a {
-  color: #121a27;
+.navbar .item_nav_index {
+  position: absolute;
+  left: 10px;
 }
-.navbar.white a:hover::before {
-  border: solid 1px #121a27;
-}
-.navbar.white a:active::before {
-  background-color: #121a27;
-}
-
-.item_nav_left {
-  position: relative;
-}
-.item_nav_left a {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.item_nav_left a::before {
+.navbar a::before {
   position: absolute;
   content: "";
   display: block;
-  height: 0;
-  border: solid 0px white;
-  transition: all 0.3s;
-}
-.item_nav_left .item-menu::before {
-  width: 42%;
-  transform: translate(-2px, -45px);
-}
-.item_nav_left .item-about::before {
-  width: 50%;
-  transform: translate(94px, -45px);
-}
-.item_nav_left a:hover::before {
-  height: 70px;
-  border: solid 1px white;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top: none;
-}
-.item_nav_left a:active::before {
+  top: 100%;
+  left: 0;
+  height: 2px;
   background-color: white;
 }
-
-.item_nav_index {
-  position: absolute;
-  left: 30px;
+.navbar a.open::before {
+  width: 100%;
 }
-.item_nav_index::before {
-  position: absolute;
-  content: "";
-  display: block;
-  border: solid 0px white;
-  left: 50%;
-  top: 50%;
+.navbar a::before {
   width: 0;
-  height: 0;
-  border-radius: 50%;
-  transition: all 0.3s;
+  transition: width 0.3s;
 }
-.item_nav_index:hover::before {
-  border: solid 1px white;
-  top: -6px;
-  left: -15%;
-  width: 130%;
-  height: 30px;
-  border-radius: 30px;
+.navbar a:hover::before {
+  width: 100%;
 }
-.item_nav_index:active::before {
-  background-color: white;
+
+@media all and (max-device-width: 480px) {
+  .navbar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .navbar .item_nav_index {
+    position: relative;
+    left: 0;
+  }
+  .navbar .item_nav_left {
+    display: inline-flex;
+  }
+  .navbar a {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 /*# sourceMappingURL=about.c5cca048.css.map */

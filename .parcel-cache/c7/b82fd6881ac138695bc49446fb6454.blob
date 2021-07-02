@@ -1,0 +1,39 @@
+.about {
+  display: block;
+  position: relative;
+  top: 0;
+  opacity: 1;
+  background-color: white;
+  color: #121a27;
+}
+
+.about.hidden {
+  opacity: 0;
+}
+
+.info {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+}
+.info h1 {
+  font-family: "Text-menu";
+  font-size: 3vw;
+  width: 70%;
+}
+.info h2 {
+  font-family: "Text-bold";
+  font-size: 1.5vw;
+  width: 35%;
+}
+.info .image {
+  position: relative;
+  background-color: teal;
+  top: 0;
+}
+.info .image img {
+  width: 60vw;
+}

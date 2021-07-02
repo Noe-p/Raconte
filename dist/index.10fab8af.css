@@ -36,29 +36,28 @@ header .title2 {
   position: absolute;
   z-index: 90;
 }
-
-.vanille img, .noe img {
+.stickman .vanille img, .stickman .noe img {
   opacity: 0;
   height: 110px;
   position: fixed;
   bottom: 10px;
 }
-
-.vanille img {
+.stickman .vanille img {
   left: 48%;
 }
-
-.noe img {
+.stickman .noe img {
   left: 52%;
 }
-
-.noe img.open, .vanille img.open {
+.stickman .noe img.open, .stickman .vanille img.open {
   opacity: 1;
 }
-
-.noe img.open_reverse, .vanille img.open_reverse {
+.stickman .noe img.open_reverse, .stickman .vanille img.open_reverse {
   opacity: 1;
   transform: scaleX(-1);
+}
+
+.stickman.hidden {
+  display: none;
 }
 
 .gallery__item {
@@ -148,6 +147,79 @@ header .title2 {
 @keyframes macaron-hover {
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  .content {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    padding-bottom: 300px;
+  }
+
+  .gallery {
+    display: block;
+    margin-left: 0;
+    padding-right: 0;
+    width: 95%;
+  }
+
+  header {
+    width: auto;
+    line-height: 0.8;
+    margin: 30vh 0 200px 0;
+    text-align: center;
+  }
+  header .title1 {
+    font-size: 5em;
+    width: auto;
+  }
+  header .title2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    display: block;
+  }
+
+  .gallery__item {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+  }
+  .gallery__item .gallery__item-img {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: solid white 1px;
+  }
+  .gallery__item .gallery__item-img .description {
+    position: inherit;
+    top: 10px;
+    left: 0;
+    transform: translate(0, 0);
+    max-width: 100%;
+    opacity: 1;
+  }
+  .gallery__item .gallery__item-img:hover::before {
+    opacity: 0;
+  }
+  .gallery__item .gallery__item-img .macaron {
+    position: relative;
+    display: flex;
+    width: 110px;
+    top: 0;
+    left: 0;
+    font-size: 7.2em;
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=index.10fab8af.css.map */

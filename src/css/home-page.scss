@@ -38,29 +38,34 @@ header {
 .stickman{
 	position: absolute;
 	z-index: 90;
+
+	.vanille img, .noe img{
+		opacity: 0;
+		height: 110px;
+		position:fixed;
+		bottom:10px;
+	}
+
+	.vanille img{
+		left: 48%;
+	}
+	.noe img{
+		left: 52%;
+	}
+	.noe img.open, .vanille img.open {
+		opacity:1;
+	}
+
+	.noe img.open_reverse, .vanille img.open_reverse {
+		opacity: 1;
+		transform: scaleX(-1);
+	}
 }
 
-.vanille img, .noe img{
-	opacity: 0;
-	height: 110px;
-	position:fixed;
-	bottom:10px;
+.stickman.hidden{
+	display: none;
 }
 
-.vanille img{
-	left: 48%;
-}
-.noe img{
-	left: 52%;
-}
-.noe img.open, .vanille img.open {
-	opacity:1;
-}
-
-.noe img.open_reverse, .vanille img.open_reverse {
-	opacity: 1;
-	transform: scaleX(-1);
-}
 
 .gallery__item {
   margin: 0 180px 0 30px;
@@ -125,7 +130,6 @@ header {
 
 		&:hover::before{
 			opacity: 1;
-
 		}
 
 		.macaron{
@@ -160,6 +164,85 @@ header {
 		@keyframes macaron-hover{
 			100%{
 				transform: rotate(360deg);
+			}
+		}
+	}
+}
+
+@media all and (max-device-width:480px) {
+	.content {
+		display: flex;
+		align-items: center;
+		height:auto;
+		width: auto;
+		position: absolute;
+		top: 0;
+		padding-bottom: 300px;
+	}
+
+	.gallery {
+		display: block;
+		margin-left:0;
+		padding-right: 0;
+		width: 95%;
+	}
+
+	header {
+		width: auto;
+		line-height: 0.8;
+		margin: 30vh 0 200px 0;
+		text-align: center;
+
+		.title1{
+		  font-size: 5em;
+			width: auto;
+		}
+
+		.title2{
+			margin-top:30px;
+			font-size: 1.5em;
+			display: block;
+		}
+	}
+
+	.gallery__item {
+	  margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto;
+		margin-top: 50px;
+
+		.gallery__item-img{
+			width: 95%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-bottom: 30px;
+			border-bottom: solid white 1px;
+
+			.description{
+				position:inherit;
+				top: 10px;
+				left: 0;
+				transform: translate(-0, 0);
+				max-width:100%;
+				opacity: 1;
+			}
+
+			&:hover::before{
+				opacity: 0;
+			}
+
+			.macaron{
+				position: relative;
+				display: flex;
+				width: 110px;
+				top:0;
+				left: 0;
+				font-size:7.2em;
+				margin-top: 20px;
 			}
 		}
 	}

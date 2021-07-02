@@ -1,0 +1,56 @@
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  height: 7vh;
+  position: fixed;
+  top: 0;
+  z-index: 90;
+  width: 100%;
+}
+aside a {
+  font-family: "Text";
+  color: white;
+  text-decoration: none;
+}
+aside a:hover {
+  cursor: pointer;
+}
+
+.navbar.white a {
+  color: #121a27;
+}
+.navbar.white .item-menu::before, .navbar.white .item-about::before, .navbar.white .item_nav_index::before {
+  background-color: #121a27;
+}
+
+.navbar a {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar a::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 100%;
+  left: 0;
+  height: 3px;
+  background-color: white;
+}
+.navbar a.open::before {
+  width: 100%;
+}
+.navbar .item-menu::before, .navbar .item-about::before, .navbar .item_nav_index::before {
+  width: 0;
+  transition: width 0.3s;
+}
+.navbar .item-menu:hover::before, .navbar .item-about:hover::before, .navbar .item_nav_index:hover::before {
+  width: 100%;
+}
+.navbar .item_nav_index {
+  position: absolute;
+  left: 30px;
+}
+/*# sourceMappingURL=about.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css.map */

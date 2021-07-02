@@ -1,4 +1,14 @@
-aside{
+.navbar.white{
+  a{
+    color: #121a27;
+  }
+
+  a::before{
+    background-color: #121a27;
+  }
+}
+
+.navbar{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,96 +23,65 @@ aside{
     font-family: 'Text';
     color:white;
     text-decoration: none;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   a:hover{
     cursor: pointer;
   }
-}
 
-
-.navbar.white{
-  a{
-    color: #121a27;
-  }
-
-  a:hover::before{
-    border: solid 1px #121a27;
-  }
-
-  a:active::before{
-    background-color: #121a27;
-  }
-}
-
-.item_nav_left{
-  position: relative;
-
-  a{
-    padding-left: 20px;
-    padding-right: 20px;
+  .item_nav_index{
+    position: absolute;
+    left: 10px;
   }
 
   a::before{
     position: absolute;
-    content: '';
+    content:'';
     display: block;
-    height: 0;
-    border: solid 0px white;
-    transition: all 0.3s;
+
+    top: 100%;
+    left: 0;
+    height: 2px;
+    background-color: white;
   }
 
-  .item-menu::before{
-    width: 42%;
-    transform: translate(-2px,-45px);
-  }
+    a.open::before{
+      width: 100%;
+    }
 
-  .item-about::before{
-    width: 50%;
-    transform: translate(94px,-45px);
+  a::before{
+    width: 0;
+    transition: width 0.3s;
   }
 
   a:hover::before{
-    height: 70px;
-    border: solid 1px white;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top: none;
+    width: 100%;
   }
-
-  a:active::before{
-    background-color: white;
-  }
-
 }
 
-.item_nav_index{
-  position: absolute;
-  left: 30px;
+@media all and (max-device-width:480px) {
+  .navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
 
-  &::before{
-    position: absolute;
-    content: '';
-    display: block;
-    border: solid 0px white;
-    left: 50%;
-    top: 50%;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    transition: all 0.3s;
-  }
+    .item_nav_index{
+      position: relative;
+      left: 0;
+    }
 
-  &:hover::before{
-    border: solid 1px white;
-    top: -6px;
-    left: -15%;
-    width: 130%;
-    height: 30px;
-    border-radius: 30px;
-  }
+    .item_nav_left{
+      display: inline-flex;
+    }
 
-  &:active::before{
-    background-color: white;
+    a{
+      position: relative;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 }

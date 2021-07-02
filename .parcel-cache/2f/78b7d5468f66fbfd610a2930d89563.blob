@@ -1,0 +1,219 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  justify-content: flex-start;
+  background-color: #121a27;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  margin-left: 12vw;
+  padding-right: 12vw;
+}
+
+header {
+  width: 50vw;
+  line-height: 0.8;
+  margin: 20vh 11vw 0 7vw;
+}
+header .title1 {
+  font-family: "Titre";
+  color: white;
+  font-size: 10vw;
+  display: block;
+}
+header .title2 {
+  font-family: "Titre";
+  color: white;
+  font-size: 1.5vw;
+  display: block;
+}
+
+.stickman {
+  position: absolute;
+  z-index: 90;
+}
+.stickman .vanille img, .stickman .noe img {
+  opacity: 0;
+  height: 110px;
+  position: fixed;
+  bottom: 10px;
+}
+.stickman .vanille img {
+  left: 48%;
+}
+.stickman .noe img {
+  left: 52%;
+}
+.stickman .noe img.open, .stickman .vanille img.open {
+  opacity: 1;
+}
+.stickman .noe img.open_reverse, .stickman .vanille img.open_reverse {
+  opacity: 1;
+  transform: scaleX(-1);
+}
+
+.stickman.hidden {
+  display: none;
+}
+
+.gallery__item {
+  margin: 0 180px 0 30px;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  word-break: break-all;
+}
+.gallery__item h2 {
+  font-family: "Titre";
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.gallery__item .gallery__item-img {
+  position: relative;
+}
+.gallery__item .gallery__item-img img {
+  width: 100%;
+  height: 100%;
+}
+.gallery__item .gallery__item-img .description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  max-height: 80%;
+}
+.gallery__item .gallery__item-img .description p {
+  color: white;
+  text-align: center;
+}
+.gallery__item .gallery__item-img:hover .description {
+  max-width: 80%;
+  opacity: 1;
+  transition: max-width 0.5s;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-out;
+}
+.gallery__item .gallery__item-img::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.gallery__item .gallery__item-img:hover::before {
+  opacity: 1;
+}
+.gallery__item .gallery__item-img .macaron {
+  position: absolute;
+  width: 150px;
+  top: -75px;
+  left: -75px;
+  font-family: Titre;
+  font-size: 6.5em;
+  animation-name: rotate-macaron;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  transform: rotate(0deg);
+  animation-timing-function: linear;
+  letter-spacing: 10px;
+  border-radius: 50%;
+  border: solid 1px #b4630e;
+}
+.gallery__item .gallery__item-img .macaron:hover {
+  animation-name: macaron-hover;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes rotate-macaron {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes macaron-hover {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media all and (max-device-width: 480px) {
+  body {
+    width: 100vw;
+  }
+
+  .content {
+    display: block;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 0;
+    padding-bottom: 300px;
+  }
+
+  .gallery {
+    display: block;
+    margin-left: 30px;
+    padding-right: 30px;
+  }
+
+  header {
+    width: auto;
+    line-height: 0.8;
+    margin: 30vh 0 200px 0;
+  }
+  header .title1 {
+    font-size: 5em;
+    width: auto;
+  }
+  header .title2 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    display: block;
+  }
+
+  .gallery__item {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-top: 75px;
+  }
+  .gallery__item .gallery__item-img {
+    width: 85%;
+  }
+  .gallery__item .gallery__item-img .description {
+    position: static;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    max-width: 80%;
+    overflow: hidden;
+    opacity: 1;
+    display: block;
+    justify-content: center;
+    max-height: auto;
+  }
+  .gallery__item .gallery__item-img .macaron {
+    width: 80px;
+    top: 80%;
+    left: -40px;
+    font-size: 7.2em;
+  }
+}
+/*# sourceMappingURL=index.HASH_REF_a549d9b46cfd4854ada1ec8a10fab8af.css.map */

@@ -4,18 +4,23 @@
 }
 
 @font-face {
-   font-family: 'Text-bold';
+   font-family: 'Text-black';
    src: url("../fonts/Montserrat/Montserrat-Black.ttf");
 }
 
 @font-face {
-   font-family: 'Text-regular';
-   src: url("../fonts/Roboto/Roboto-Regular.ttf");
+   font-family: 'Text-bold';
+   src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
    font-family: 'Text';
    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+   font-family: 'Text-titre';
+   src: url("../fonts/Anton/Anton-Regular.ttf");
 }
 
 body{
@@ -134,4 +139,11 @@ body{
     z-index: 100;
     border-radius: 0;
   }
+}
+
+@media all and (max-device-width:480px) {
+	body{
+		width: auto;
+	}
+
 }
