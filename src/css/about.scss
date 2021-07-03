@@ -1,10 +1,26 @@
 .about{
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: relative;
   top: 0;
   opacity: 1;
   background-color: white;
   color: #121a27;
+
+  h1{
+    font-family: 'Text-titre';
+    font-size: 3vw;
+  }
+
+  h2{
+    font-family: 'Text-bold';
+    font-size: 1.5vw;
+    color: rgb(62, 62, 62);
+  }
+
+  p{
+    font-size: 1.2vw;
+  }
 
   transition: all 1s ease-out;
   transition-delay: 0.3s;
@@ -17,35 +33,88 @@
 
 .info{
   padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
 
   h1{
-    font-family: 'Text-titre';
-    font-size: 3vw;
     width: 70%;
   }
-
 
   .header {
     display: inline-flex;
     justify-content:space-between;
 
     h2{
-      font-family: 'Text-bold';
-      font-size: 1.5vw;
       width: 35%;
-      color: rgb(62, 62, 62);
     }
 
+    .img-about{
+      img{
+        position: relative;
+        top: -12vw;
+        width: 60vw;
+      }
 
-    img{
-      position: relative;
-      top: -150px;
-      width: 60vw;
+      p{
+        position: absolute;
+        top: 30%;
+        left:-150px;
+        width: 150px;
+        font-size: 1vw;
+
+        span{
+          position: absolute;
+          font-size: 2em;
+          top: 45%;
+          margin-left:30%;
+        }
+      }
     }
   }
+}
+
+.noe-about{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -18vw;
+
+  .info-noe{
+    display: flex;
+    justify-content: space-around;
+
+    .img-abeille{
+      position: relative;
+      top: -2vw;
+
+      img{
+        width: 50vw;
+      }
+
+      p{
+        position: absolute;
+        top: 95%;
+        left:40%;
+        width: 150px;
+        font-size: 1vw;
+
+        span{
+          position: absolute;
+          font-size: 2em;
+          top: 0;
+          margin-left:15px;
+        }
+      }
+    }
+
+    article{
+      display: flex;
+      flex-direction: column;
+      width: 35%;
+    }
+  }
+
+
 }
 
 @media all and (max-device-width:480px) {
@@ -64,6 +133,18 @@
   .about{
     display: flex;
     width: 100vw;
+
+    h1{
+      font-size: 6vw;
+    }
+
+    h2{
+      font-size: 4.2vw;
+    }
+
+    p{
+      font-size: 2vw;
+    }
   }
 
   .info{
@@ -71,11 +152,8 @@
     width:95%;
 
     h1{
-      font-family: 'Text-titre';
-      font-size: 5em;
       width: 100%;
     }
-
 
     .header {
       display: flex;
@@ -85,19 +163,76 @@
 
 
       h2{
-        font-family: 'Text-bold';
-        font-size: 4.2vw;
         width: 100%;
-        color: rgb(62, 62, 62);
       }
 
-
-      img{
-        margin-top: 50px;
+      .img-about{
         position: relative;
-        top: 0;
+        margin-top: 100px;
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        img{
+
+          position: relative;
+          top: 0;
+          width: 70%;
+        }
+
+        p{
+          position: relative;
+          top: 0%;
+          left:0;
+          width: auto;
+          font-size: 3vw;
+
+          span{
+            position: absolute;
+            font-size: 2em;
+            top: 45%;
+            margin-left:30%;
+          }
+        }
+      }
+    }
+  }
+
+  .noe-about{
+    top: 100px;
+
+    .info-noe{
+      display: flex;
+      flex-direction: column-reverse;
+
+      .img-abeille{
+        top: 10vw;
+
+        img{
+          width: 100%;
+        }
+
+        p{
+          position: relative;
+          left:30%;
+          width: 300px;
+          font-size: 3vw;
+
+          span{
+            font-size: 2em;
+          }
+        }
+      }
+
+      article{
+        display: flex;
+        flex-direction: column;
         width: 100%;
       }
     }
   }
+
+
+
+  
 }

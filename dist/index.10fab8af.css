@@ -150,6 +150,10 @@ header .title2 {
   }
 }
 
+.arrow-top {
+  display: none;
+}
+
 @media all and (max-device-width: 480px) {
   .content {
     display: flex;
@@ -158,7 +162,14 @@ header .title2 {
     width: auto;
     position: absolute;
     top: 0;
-    padding-bottom: 300px;
+    opacity: 1;
+    transition: all 1s ease-out;
+    transition-delay: 0.3s;
+  }
+
+  .content.hidden {
+    opacity: 0;
+    top: 150px;
   }
 
   .gallery {
@@ -171,8 +182,8 @@ header .title2 {
   header {
     width: auto;
     line-height: 0.8;
-    margin: 30vh 0 200px 0;
-    text-align: center;
+    margin: 30vh 0 300px 0;
+    text-align: left;
   }
   header .title1 {
     font-size: 5em;
@@ -191,7 +202,16 @@ header .title2 {
     align-items: center;
     width: auto;
     height: auto;
-    margin-top: 50px;
+    margin-top: 130px;
+  }
+  .gallery__item::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: -30px;
+    width: 50%;
+    height: 1px;
+    background-color: white;
   }
   .gallery__item .gallery__item-img {
     width: 95%;
@@ -199,7 +219,6 @@ header .title2 {
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
-    border-bottom: solid white 1px;
   }
   .gallery__item .gallery__item-img .description {
     position: inherit;
@@ -220,6 +239,15 @@ header .title2 {
     left: 0;
     font-size: 7.2em;
     margin-top: 20px;
+  }
+
+  .arrow-top {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .arrow-top img {
+    width: 50px;
   }
 }
 /*# sourceMappingURL=index.10fab8af.css.map */
