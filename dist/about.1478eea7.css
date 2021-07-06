@@ -80,7 +80,7 @@
 }
 .noe-about .info-noe .img-abeille p {
   position: absolute;
-  top: 95%;
+  top: 85%;
   left: 40%;
   width: 150px;
   font-size: 1vw;
@@ -95,6 +95,23 @@
   display: flex;
   flex-direction: column;
   width: 35%;
+}
+
+.rapp {
+  position: relative;
+  top: -22vw;
+}
+
+.contact {
+  position: relative;
+  top: -26vw;
+}
+.contact a {
+  color: black;
+  transition: color 0.2s;
+}
+.contact a:hover {
+  color: #b4630e;
 }
 
 @media all and (max-device-width: 480px) {
@@ -113,18 +130,17 @@
     width: 100vw;
   }
   .about h1 {
-    font-size: 6vw;
+    font-size: 7vw;
   }
   .about h2 {
     font-size: 4.2vw;
   }
   .about p {
-    font-size: 2vw;
+    font-size: 3.4vw;
   }
 
   .info {
     padding-top: 200px;
-    width: 95%;
   }
   .info h1 {
     width: 100%;
@@ -143,7 +159,7 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   .info .header .img-about img {
@@ -153,9 +169,9 @@
   }
   .info .header .img-about p {
     position: relative;
-    top: 0%;
+    top: 0;
     left: 0;
-    width: auto;
+    width: 20%;
     font-size: 3vw;
   }
   .info .header .img-about p span {
@@ -180,7 +196,8 @@
   }
   .noe-about .info-noe .img-abeille p {
     position: relative;
-    left: 30%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 300px;
     font-size: 3vw;
   }
@@ -191,6 +208,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .rapp, .contact {
+    top: 300px;
+  }
+
+  .contact {
+    padding-bottom: 200px;
   }
 }
 /*# sourceMappingURL=about.1478eea7.css.map */

@@ -93,7 +93,7 @@
 
       p{
         position: absolute;
-        top: 95%;
+        top: 85%;
         left:40%;
         width: 150px;
         font-size: 1vw;
@@ -113,8 +113,25 @@
       width: 35%;
     }
   }
+}
 
+.rapp{
+  position: relative;
+  top: -22vw;
+}
 
+.contact{
+  position: relative;
+  top: -26vw;
+
+  a{
+    color: black;
+    transition: color 0.2s ;
+  }
+
+  a:hover{
+    color: #b4630e;
+  }
 }
 
 @media all and (max-device-width:480px) {
@@ -135,7 +152,7 @@
     width: 100vw;
 
     h1{
-      font-size: 6vw;
+      font-size: 7vw;
     }
 
     h2{
@@ -143,13 +160,12 @@
     }
 
     p{
-      font-size: 2vw;
+      font-size: 3.4vw;
     }
   }
 
   .info{
     padding-top: 200px;
-    width:95%;
 
     h1{
       width: 100%;
@@ -171,10 +187,10 @@
         margin-top: 100px;
         display:flex;
         flex-direction: row-reverse;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        img{
 
+        img{
           position: relative;
           top: 0;
           width: 70%;
@@ -182,9 +198,9 @@
 
         p{
           position: relative;
-          top: 0%;
+          top: 0;
           left:0;
-          width: auto;
+          width: 20%;
           font-size: 3vw;
 
           span{
@@ -214,7 +230,8 @@
 
         p{
           position: relative;
-          left:30%;
+          left:50%;
+          transform: translateX(-50%);
           width: 300px;
           font-size: 3vw;
 
@@ -232,7 +249,15 @@
     }
   }
 
+  .rapp, .contact{
+    top:300px;
+  }
+
+  .contact{
+    padding-bottom: 200px;
+  }
 
 
-  
+
+
 }

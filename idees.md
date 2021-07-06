@@ -23,5 +23,5 @@ Instagram: @raconte-reportage
 mail : raconte-reportage@gmail.com
 telephonne : 07 81 53 31 81
 
-texte : Vanille LAGADEC 
-photographie - développement / design : Noé PHILIPPE
+texte : Vanille LAGADEC
+photographie - développement/design : Noé PHILIPPE
