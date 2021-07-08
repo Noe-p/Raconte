@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b7ab87680d2fbca66d380165b587f725.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css">
+  <link rel="stylesheet" type="text/css" href="/src/app/about.HASH_REF_ba623b7bb9df40877e7ee10d01e58e05.css">
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about open">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="about hidden">
+      <figure class="info" data-scroll="" data-scroll-speed="1">
+        <h1>À la recherche de vie atypique, nous essayons de partager des personnalités inspirantes et passionnées.</h1>
+        <div class="header">
+          <h2>Ces reportages sont des témoignages de personnes qui nous ont touchés et marqués.</h2>
+          <div class="img-about" data-scroll="" data-scroll-speed="3">
+            <img src="/vanille.HASH_REF_409e39287296ff439550f5e74d922873.jpg" alt="vanille">
+            <p>Vanille face à la lune rousse - Ajaccio <span>→</span></p>
+          </div>
+        </div>
+      </figure>
+
+      <figure class="noe-about" data-scroll="" data-scroll-speed="3">
+        <h1>Noé - Photographie</h1>
+        <div class="info-noe">
+          <div class="img-abeille" data-scroll="" data-scroll-speed="1">
+            <img src="/abeille.HASH_REF_9d302ca677076bf27319873382579066.jpg" alt="abeille">
+            <p>Bateau "L'Abeille Bourbon" - Brest <span>↑</span></p>
+          </div>
+          <article>
+            <h2>Je suis étudiant en développement web et mobile à la Sorbonne sur Paris et photographe amateur.</h2>
+            <p>J'aime beaucoup la photographie de paysages. J'ai pu prendre plusieurs clichés de la ville de Brest pendant mes années d'études. C'est dans cette ville que j'ai découvert la photographie.</p>
+            <p>Depuis peu, je me suis intéressé à la photo de reportage. Vanille, quant à elle est passionnée d'écriture. On s'est dit que Raconte serait un bon moyen de nous compléter. Avec notre premier reportage de Anthony et Yann en Corse, Nous avons tout de suite compris qu'on était sur la même longueur d'onde. En plus de rencontrer des gens formidables, on peut transmettre leurs idées, leurs passions...</p>
+            <p>Nous espérons pouvoir continuer ce projet et le compléter par d'autres reportages.</p>
+          </article>
+        </div>
+      </figure>
+
+      <figure class="rapp" data-scroll="" data-scroll-speed="2">
+        <h2>Si vous êtes intéressés par notre travail, vous pouvez nous contacter !</h2>
+      </figure>
+
+      <figure class="contact" data-scroll="" data-scroll-speed="3">
+        <h1>Contact</h1>
+        <article>
+          <p><B>Instagram :</B> @raconte-reportage</p>
+          <p><B>Mail :</B>   <a href="mailto:raconte-reportage@gmail.com">raconte-reportage@gmail.com</a></p>
+          <p><B>Téléphone :</B> <a href="tel:0781533181">07 81 53 31 81</a><br><br><br></p>
+
+          <p><B>Texte :</B> Vanille LAGADEC</p>
+          <p><B>Photographie - Développement/Design :</B> <a target="blank" href="https://noe-philippe.com">Noé PHILIPPE</a></p>
+
+        </article>
+      </figure>
+
+    </section>
+  </main>
+
+  <script src="/src/app/about.HASH_REF_d91b0df6308cbbd59c276cd7a3fe47ef.js"></script>
+  <script src="/index.HASH_REF_34cf53682428ddf4e84b09effed7f98f.js"></script>
+</body>
+
+</html>

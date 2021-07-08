@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.desc-right {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 200px;
+  transform: translateY(-50%);
+  font-family: "Text-italic";
+}
+.desc-right::after {
+  content: "←";
+  display: block;
+  font-size: 2em;
+}
+
+.desc-top {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 200px;
+  transform: translateX(-25%);
+  font-family: "Text-italic";
+}
+.desc-top::after {
+  content: "↓";
+  display: block;
+  font-size: 2em;
+  position: absolute;
+  bottom: -10px;
+  left: -40px;
+}
+
+.desc-bottom {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 200px;
+  transform: translateX(-50%);
+  font-family: "Text-italic";
+}
+.desc-bottom::after {
+  content: "↑";
+  display: block;
+  font-size: 2em;
+  position: absolute;
+  top: -10px;
+  left: -40px;
+}
+
+.desc-left {
+  position: absolute;
+  top: 50%;
+  left: -220px;
+  width: 200px;
+  transform: translateY(-50%);
+  text-align: right;
+  font-family: "Text-italic";
+}
+.desc-left::after {
+  content: "→";
+  display: block;
+  font-size: 2em;
+  position: relative;
+  right: 0;
+}
+
+.desc-bottom.large {
+  width: 500px;
+}
+/*# sourceMappingURL=anthony-yann.HASH_REF_c2b6c5a4ca439b81b79fbd4b4bd432f6.css.map */

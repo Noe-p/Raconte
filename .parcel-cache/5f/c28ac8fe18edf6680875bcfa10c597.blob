@@ -1,0 +1,16 @@
+.ay {
+  display: block;
+  position: relative;
+  top: 0;
+  opacity: 1;
+  background-color: white;
+  color: #121a27;
+  transition: all 1s ease-out;
+  transition-delay: 0.3s;
+}
+
+.ay.hidden {
+  opacity: 0;
+  top: 150px;
+}
+/*# sourceMappingURL=anthony-yann.HASH_REF_12ae4df0fd021fcc79d4107c4a894266.css.map */

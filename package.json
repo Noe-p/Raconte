@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html src/app/*.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build index.html src/app/*.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+
   },
   "keywords": [],
   "author": "",

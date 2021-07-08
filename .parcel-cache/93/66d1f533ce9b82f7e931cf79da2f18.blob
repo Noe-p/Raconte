@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="7ea47842fb063c64a2dae1b67c15f3ac">
+  <link rel="stylesheet" type="text/css" href="20b6a18f03d693e64084701e90d4366a">
+  <link rel="stylesheet" type="text/css" href="93f360ae4ac69f8b47825e07ccd9b107">
+  <link rel="stylesheet" type="text/css" href="35d913091f5c7e341729cfe86c90f5d6">
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="ay hidden">
+      <h1>Anthony et Yann</h1>
+
+    </section>
+
+  </main>
+
+    <script src="f9110c827813170b168d5f0e7af3faba"></script>
+    <script src="23070afe164e51c8da034e00ae205d2d"></script>
+  </body>
+
+  </html>

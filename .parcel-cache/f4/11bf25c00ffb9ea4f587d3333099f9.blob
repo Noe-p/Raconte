@@ -1,0 +1,143 @@
+@charset "UTF-8";
+.ay {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+  opacity: 1;
+  color: #121a27;
+  padding-bottom: 500px;
+  transition: all 1s ease-out;
+  transition-delay: 0.3s;
+}
+.ay h2 {
+  font-family: "Text-bold";
+  font-size: 3vw;
+  color: #3e3e3e;
+}
+.ay p {
+  font-size: 1.2vw;
+}
+
+.ay.hidden {
+  opacity: 0;
+  top: 150px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+header p {
+  width: 50%;
+}
+header h1 {
+  font-family: "Text-titre";
+  font-size: 5vw;
+  margin: 0;
+}
+
+.campement {
+  margin: 50px;
+}
+.campement div {
+  position: relative;
+  margin-top: 50px;
+}
+.campement div p {
+  position: absolute;
+  width: 200px;
+  font-size: 1vw;
+}
+.campement div p::before {
+  display: block;
+  font-size: 2em;
+}
+.campement .img-arrive img {
+  width: 65vw;
+}
+.campement .img-arrive p {
+  top: 30%;
+  right: 3vw;
+  transform: translateY(50%);
+}
+.campement .img-arrive p::before {
+  content: "←";
+}
+.campement .img-campement {
+  top: 0;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.campement .img-campement img {
+  width: 30vw;
+}
+.campement .img-campement p {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.campement .img-campement p::before {
+  content: "↓";
+  position: absolute;
+  left: -15%;
+}
+.campement .chien {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.campement .chien img {
+  width: 60vw;
+}
+.campement .chien p {
+  top: 50%;
+  left: 27%;
+  transform: translateX(-50%);
+}
+.campement .chien p::before {
+  content: "→";
+  position: absolute;
+  right: 5px;
+  top: 80%;
+}
+.campement .frigo {
+  padding-top: 50px;
+  display: flex;
+  top: 0;
+}
+.campement .frigo img {
+  width: 45vw;
+}
+.campement .frigo p {
+  top: 100%;
+  left: 20%;
+}
+.campement .frigo p::before {
+  content: "↑";
+  position: absolute;
+  top: -10px;
+  left: -30px;
+}
+.campement .beurre {
+  display: flex;
+  flex-direction: row-reverse;
+  top: -400px;
+}
+.campement .beurre img {
+  width: 45vw;
+}
+.campement .beurre p {
+  top: 100%;
+  left: 70%;
+}
+.campement .beurre p::before {
+  content: "↑";
+  position: absolute;
+  top: -10px;
+  right: -30px;
+}

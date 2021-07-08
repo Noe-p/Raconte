@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="cca34c7959a66a988f0694a00a241721">
+  <link rel="stylesheet" type="text/css" href="2bca68858ca85fb62837bb3558005fb9">
+  <link rel="stylesheet" type="text/css" href="53f5e569d7219ffcc5a460d1cf5b0b29">
+  <link rel="stylesheet" type="text/css" href="2d60a27f6346184742c7c301b85e460e">
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="ay hidden">
+      <header data-scroll="" data-scroll-speed="1">
+        <h1>Anthony et Yann</h1>
+        <p>Une recontre dans un camping perdu dans le desert des agriates en Corse. Anthony et Yann chargé de s'occuper du potagé du camping.</p>
+      </header>
+
+      <div class="campement">
+        <h2>Le campement</h2>
+        <div class="img-arrive" data-scroll="" data-scroll-speed="1">
+          <img src="a2de4da4a394ca217f65c5f584a3786d" alt="arrive">
+          <p>Arrivé dans le campement caché dans la foret</p>
+        </div>
+
+        <div class="img-campement" data-scroll="" data-scroll-speed="2">
+          <img src="90feb5ef9431936ce1e576aaefbc2fad" alt="campement1">
+          <img src="4493f40dd62000875d8519644dca6b14" alt="campement2">
+          <img src="297eeabb4fbda1a7d32ff0aff834d6d8" alt="campement3">
+          <p>Différentes parties de leur campement.</p>
+        </div>
+
+        <div class="chien" data-scroll="" data-scroll-speed="1">
+          <img src="9306c2247075b5e9f2d3974c601c085c" alt="chien">
+          <p>Vanille et les deux chiens</p>
+        </div>
+
+        <div class="frigo" data-scroll="" data-scroll-speed="2">
+          <img src="362d806ba95d35a2a9f0e2fdb7557632" alt="frigo">
+          <p>Frigo du désert.</p>
+        </div>
+        <div class="frigo" data-scroll="" data-scroll-speed="2">
+          <img src="5d3a5700b9a7f3925cafb1d395c7d24c" alt="beurre">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+    <script src="afb33e85dc08382874bae6670fcab437"></script>
+    <script src="007708f24efcdb116d74c5e90bf04975"></script>
+  </body>
+
+  </html>

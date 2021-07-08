@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b7ab87680d2fbca66d380165b587f725.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_b56020c8ec419c4be6fb2d02c5cca048.css">
+  <link rel="stylesheet" type="text/css" href="/index.HASH_REF_d1b38f75868dd7964ce447d28a3ba367.css">
+  <link rel="stylesheet" type="text/css" href="/src/app/anthony-yann.HASH_REF_12ae4df0fd021fcc79d4107c4a894266.css">
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <main data-scroll-container="">
+    <section class="ay hidden">
+        <header data-scroll="">
+          <h1>Anthony et Yann</h1>
+          <p>Une recontre dans un camping perdu dans le desert des agriates en Corse. Anthony et Yann chargé de s'occuper du potagé du camping.</p>
+        </header>
+
+        <div data-scroll="" class="campement">
+          <h2>Le campement</h2>
+          <div class="img-arrive">
+            <img src="/arrive.HASH_REF_46a1adf10bb37d12322ddac899779543.jpg" alt="arrive">
+            <p>Arrivé dans le campement caché dans la foret</p>
+          </div>
+
+          <div data-scroll="" class="img-campement">
+            <img src="/campement1.HASH_REF_b478b7d8a54417e7ee74a9cf4cdefde2.jpg" alt="campement1">
+            <img src="/campement2.HASH_REF_001a0287f979723c421b3616c1c535e9.jpg" alt="campement2">
+            <img src="/campement3.HASH_REF_b981701d7736bfcdaf2ea593c6843237.jpg" alt="campement3">
+            <p>Différentes parties de leur campement.</p>
+          </div>
+
+          <div data-scroll="" class="chien">
+            <img src="/chien.HASH_REF_053f8ade0c8cfc5e4b2b7953a5fb69d0.jpg" alt="chien">
+            <p>Vanille et les deux chiens.</p>
+          </div>
+
+          <div data-scroll="" data-scroll-speed="2" class="frigo">
+            <img src="/frigo.HASH_REF_663b4c70e3135b22eb3c073aa7d16177.jpg" alt="frigo">
+            <p>Frigo du désert.</p>
+          </div>
+
+          <div data-scroll="" data-scroll-speed="5" class="beurre">
+            <img src="/beurre.HASH_REF_42ffbae77de2b2246536cbd7a7439757.jpg" alt="beurre">
+            <p>Le couteau planté dans le beurre.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <script src="/src/app/anthony-yann.HASH_REF_2c3834f2b0da6ae487e18eaa15a09064.js"></script>
+    <script src="/index.HASH_REF_34cf53682428ddf4e84b09effed7f98f.js"></script>
+  </body>
+
+  </html>

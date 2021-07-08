@@ -1,0 +1,40 @@
+.ay {
+  display: block;
+  position: relative;
+  top: 50px;
+  opacity: 1;
+  padding-bottom: 100px;
+  background-color: white;
+  color: #121a27;
+  transition: all 1s ease-out;
+  transition-delay: 0.3s;
+}
+.ay h1 {
+  font-family: "Text-titre";
+  font-size: 5vw;
+}
+.ay h2 {
+  font-family: "Text-bold";
+  font-size: 3vw;
+  color: #3e3e3e;
+}
+.ay p {
+  font-size: 1.2vw;
+}
+
+.ay.hidden {
+  opacity: 0;
+  top: 150px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: teal;
+}
+
+.Campement {
+  margin: 50px;
+}

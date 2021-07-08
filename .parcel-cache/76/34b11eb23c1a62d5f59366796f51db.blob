@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="ef1cc5cab1302c4d24d7f72dae9b8357"></script>
+  <script data-parcel-key="e253097bd58d6c237c2c89fe4682fc09">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-THNBE5S0P1');
+  </script>
+
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Raconte est un support pour des reportages à travers le monde.">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="c03222a1192e374a227eceadb0e2e19a">
+  <link rel="stylesheet" type="text/css" href="570ccfaedf1ee4c44e4dbc1cb120141d">
+  <link rel="stylesheet" type="text/css" href="606d45188e8767d3221b9c83f7062412">
+  <link rel="stylesheet" type="text/css" href="91553abcf0464f8236dac5a27c07cfdc">
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar">
+    <a class="item_nav_index open">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <div class="stickman">
+    <div class="noe">
+      <img class="open" src="7904f11419aacf747f20a8c824f1dbe3" alt="noeStop">
+      <img src="1cca41132c1c1c21cd89db116298a7bb" alt="noe1">
+      <img src="afb011d88f3b81120072c68f5be1eb42" alt="noe2">
+      <img src="c24feaeea36e67d1f413b4a8984400c4" alt="noe3">
+      <img src="a8db6007cd4b8597c7e10c1df73ee206" alt="noe4">
+      <img src="dde4eeb46ae38890fc355919c8eeda13" alt="noe5">
+      <img src="0684d99e27c9ed17887f550b86cbb9e3" alt="noe6">
+      <img src="c63f2dfbe71390daf3ff220ac6d420aa" alt="noe7">
+      <img src="afef51af1852a69a32feab0d0e14fb81" alt="noe8">
+      <img src="15c47c84ec53fcb5130b3bc104bb3d6b" alt="noe9">
+      <img src="ef82f7b47f29e83bff097463eeac8f38" alt="noe10">
+      <img src="8848fe023ad72945c9d42be771afc1ad" alt="noe11">
+      <img src="0ad81822ca3de801bda0d93d485b4446" alt="noe12">
+    </div>
+    <div class="vanille">
+      <img class="open" src="1f14e582997412e021fb50e6a5da2a76" alt="vanilleStop">
+      <img src="82ebfcba49e3bdd4bca1d267f52e283d" alt="vanille1">
+      <img src="c85d12eec74bc65dc064f03ebfb2bc82" alt="vanille2">
+      <img src="4168b7369073ff063929625428833cb8" alt="vanille3">
+      <img src="217f173754ee11ef958e86745706fbed" alt="vanille4">
+      <img src="3aa233bd0055a338e60e1d066eb08578" alt="vanille5">
+      <img src="6ff2d4992888a326fd3d4dbe538c1013" alt="vanille6">
+      <img src="79be6d8259243aca23e66740e5c1e1ba" alt="vanille7">
+      <img src="29093b9fcc82edcc6081f93aa02a80de" alt="vanille8">
+      <img src="c24b3661f541768ee0646c7ac3701ed2" alt="vanille9">
+      <img src="4da89be74c248234e39756c3d1ae6235" alt="vanille10">
+      <img src="824aa704f1247bc39f61eadb26632415" alt="vanille11">
+      <img src="63ba062c2c82c69af3760492c408d606" alt="vanille12">
+    </div>
+  </div>
+
+  <main data-scroll-container="">
+    <div class="content hidden">
+      <div class="gallery">
+        <header>
+          <span class="title1" data-scroll="" data-scroll-speed="5" data-scroll-direction="vertical">
+            Raconte
+          </span>
+          <span class="title2" data-scroll="" data-scroll-speed="-2" data-scroll-direction="vertical">Ceci est une petite citation.</span>
+        </header>
+
+        <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+          <h2>Anthony et Yann</h2>
+          <div class="gallery__item-img">
+            <img src="4a69c475c27d158b592d73e05a860878" alt="antonio-yann">
+            <div class="description">
+              <p>Une recontre dans un camping perdu <br>dans le desert des agriates. <br>Anthony et Yann chargé de s'occuper<br> du potagé du camping</p>
+            </div>
+            <a href="#">
+              <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                  M 200, 200
+                  m -160, 0
+                  a 160,160 0 1,0 320,0
+                  a 160,160 0 1,0 -320,0"></path>
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </figure>
+
+        <figure class="gallery__item" data-scroll="" data-scroll-speed="1">
+          <h2>Autre titre</h2>
+          <div class="gallery__item-img">
+            <img src="97d3961463493fd0c316b67bc3441ab1" alt="img1">
+            <div class="description">
+              <p>Ceci est une petite description <br> et là une autre</p>
+            </div>
+            <a href="#">
+              <svg class="macaron" viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                  M 200, 200
+                  m -160, 0
+                  a 160,160 0 1,0 320,0
+                  a 160,160 0 1,0 -320,0"></path>
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
+          </div>
+        </figure>
+      </div>
+      <a class="arrow-top" href="#"><img src="e143670939a3731e42ee86b694ca7a00" alt="flecheTop"></a>
+    </div>
+  </main>
+
+
+
+  <script src="3bbc4bde7f35eae129254c48ecda81d0"></script>
+  <script src="795e196b7e94e0645a067e5b521fb9df"></script>
+</body>
+
+</html>

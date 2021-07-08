@@ -1,0 +1,123 @@
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow-y: inherit;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.ay {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 100px;
+  opacity: 1;
+  color: #121a27;
+  padding-bottom: 100px;
+  overflow-y: scroll;
+  z-index: 2000;
+  background-color: teal;
+  transition: all 1s ease-out;
+  transition-delay: 0.3s;
+}
+.ay h2 {
+  font-family: "Text-bold";
+  font-size: 3vw;
+  color: #3e3e3e;
+}
+.ay p {
+  font-size: 1.2em;
+}
+
+.ay.hidden {
+  opacity: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+header p {
+  width: 50%;
+}
+header h1 {
+  font-family: "Text-titre";
+  font-size: 5vw;
+  margin: 0;
+}
+
+.campement {
+  margin: 50px;
+}
+.campement div {
+  margin-top: 100px;
+  position: relative;
+}
+.campement div img {
+  width: 100%;
+}
+.campement .img-arrive {
+  width: 70vw;
+}
+.campement .img-campement {
+  display: flex;
+  justify-content: space-between;
+}
+.campement .img-campement img {
+  width: 30vw;
+}
+.campement .chien {
+  left: 100%;
+  transform: translateX(-100%);
+  width: 60vw;
+}
+.campement .frigo {
+  width: 45vw;
+}
+.campement .beurre {
+  margin-top: -200px;
+  left: 100%;
+  transform: translateX(-100%);
+  width: 40vw;
+}
+
+.view {
+  width: 2px;
+  height: 300px;
+  background-color: black;
+  position: fixed;
+  right: 30px;
+  top: 100px;
+}
+.view .indice-view {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 1px black;
+  top: 0;
+  left: -15px;
+  transform: translateY(-50%);
+}
+.view .indice-view::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+}

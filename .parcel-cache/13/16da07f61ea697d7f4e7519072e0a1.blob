@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="cca34c7959a66a988f0694a00a241721">
+  <link rel="stylesheet" type="text/css" href="2bca68858ca85fb62837bb3558005fb9">
+  <link rel="stylesheet" type="text/css" href="53f5e569d7219ffcc5a460d1cf5b0b29">
+    <link rel="stylesheet" type="text/css" href="1faaf362e0ea8b4f0eca8f8f0059114b">
+  <link rel="stylesheet" type="text/css" href="2d60a27f6346184742c7c301b85e460e">
+
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <div class="view">
+    <div class="indice-view">
+    </div>
+  </div>
+
+  <main data-scroll-container="">
+
+    <section class="ay hidden">
+      <header>
+        <h1>Anthony et Yann</h1>
+        <p>Une recontre dans un camping perdu dans le desert des agriates en Corse. Anthony et Yann chargé de s'occuper du potagé du camping.</p>
+      </header>
+
+      <div class="campement" data-scroll="">
+        <h2>Le campement</h2>
+        <div class="img-arrive">
+          <img src="a2de4da4a394ca217f65c5f584a3786d" alt="arrive">
+          <p class="desc-right">Arrivé dans le campement caché dans la foret.</p>
+        </div>
+
+        <div class="img-campement">
+          <img src="90feb5ef9431936ce1e576aaefbc2fad" alt="campement1">
+          <img src="4493f40dd62000875d8519644dca6b14" alt="campement2">
+          <img src="297eeabb4fbda1a7d32ff0aff834d6d8" alt="campement3">
+          <p class="desc-top medium">Les différentes parties du campement.</p>
+        </div>
+
+        <div class="chien">
+          <img src="9306c2247075b5e9f2d3974c601c085c" alt="chien">
+          <p class="desc-left">Vanille avec les deux chiens.</p>
+        </div>
+
+        <div class="frigo">
+          <img src="362d806ba95d35a2a9f0e2fdb7557632" alt="frigo">
+          <p class="desc-bottom medium">Anthony à créé un frigo du désert pour garder ses aliments au frais.</p>
+        </div>
+
+        <div class="beurre">
+          <img src="5d3a5700b9a7f3925cafb1d395c7d24c" alt="beurre">
+          <p class="desc-bottom medium">Anthony nous montre le bon fonctionnement du frigo avec le test du "couteau planté dans le beurre".</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="afb33e85dc08382874bae6670fcab437"></script>
+  <script src="007708f24efcdb116d74c5e90bf04975"></script>
+</body>
+
+</html>

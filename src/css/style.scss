@@ -1,26 +1,31 @@
 @font-face {
    font-family: 'Titre';
-   src: url("../fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf");
+   src: url("../assets/fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf");
 }
 
 @font-face {
    font-family: 'Text-black';
-   src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+   src: url("../assets/fonts/Montserrat/Montserrat-Black.ttf");
 }
 
 @font-face {
    font-family: 'Text-bold';
-   src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+   src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
    font-family: 'Text';
-   src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+   src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+   font-family: 'Text-italic';
+   src: url("../assets/fonts/Montserrat/Montserrat-Italic.ttf");
 }
 
 @font-face {
    font-family: 'Text-titre';
-   src: url("../fonts/Anton/Anton-Regular.ttf");
+   src: url("../assets/fonts/Anton/Anton-Regular.ttf");
 }
 
 body{

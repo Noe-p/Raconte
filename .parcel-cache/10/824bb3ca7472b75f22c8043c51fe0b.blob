@@ -1,0 +1,55 @@
+// onClick
+const itemRaconte = document.querySelector('.item_nav_index');
+const loader = document.querySelector('.loader');
+
+const ay = document.querySelector('.ay');
+const itemMenu = document.querySelector('.item-menu');
+const itemAbout = document.querySelector('.item-about');
+
+
+itemRaconte.onclick = function(){
+  loader.classList.add('open');
+  ay.classList.add('hidden');
+
+  setTimeout(() => {  window.location.replace("../../index.html"); }, 1000);
+};
+
+itemMenu.onclick = function(){
+  loader.classList.add('open');
+  ay.classList.add('hidden');
+
+  setTimeout(() => {  window.location.replace("menu.html"); }, 1000);
+};
+
+itemAbout.onclick = function(){
+  loader.classList.add('open');
+  ay.classList.add('hidden');
+
+  setTimeout(() => {  window.location.replace("about.html"); }, 1000);
+};
+
+// Description image
+
+const indice = document.querySelector('.indice-view');
+const height = document.documentElement.scrollHeight + document.documentElement.clientHeight;
+console.log(getScrollMaxY());
+
+function getScrollMaxY(){"use strict";
+    var innerh = window.innerHeight || ebody.clientHeight, yWithScroll = 0;
+
+    if (window.innerHeight && window.scrollMaxY){
+        // Firefox
+        yWithScroll = window.innerHeight + window.scrollMaxY;
+    } else if (document.body.scrollHeight > document.body.offsetHeight){
+        // all but Explorer Mac
+        yWithScroll = document.body.scrollHeight;
+    } else {
+        // works in Explorer 6 Strict, Mozilla (not FF) and Safari
+        yWithScroll = document.body.offsetHeight;
+    }
+    return yWithScroll-innerh;
+}
+
+window.addEventListener('scroll', () => {
+  indice.setAttribute("style", "top: "+window.scrollY / height * 100+"%;");
+});
