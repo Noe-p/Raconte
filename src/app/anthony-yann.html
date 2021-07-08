@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body id="intro">
 
   <div class="loader">
     <h1>
@@ -35,20 +35,23 @@
     </div>
   </aside>
 
-  <div class="view">
-    <div class="indice-view">
-    </div>
+  <div class="scrollBar">
+    <div class="cursor"></div>
+    <a class="indice-intro" href="#intro"></a>
+    <p class="text-intro">Introduction</p>
+    <a class="indice-leCampement" href="#le-campement"></a>
+    <p class="text">Le campement</p>
   </div>
 
 
   <section class="ay hidden">
-    <header >
+    <header>
       <h1>Anthony et Yann</h1>
       <p>Une recontre dans un camping perdu dans le desert des agriates en Corse. Anthony et Yann chargé de s'occuper du potagé du camping.</p>
     </header>
 
     <div class="campement" >
-      <h2>Le campement</h2>
+      <h2 id="le-campement">Le campement</h2>
       <div class="img-arrive" >
         <img src="../assets/img/anthony-yann/arrive.jpg" alt="arrive">
         <p class="desc-right">Arrivé dans le campement caché dans la foret.</p>
@@ -77,10 +80,6 @@
       </div>
     </div>
   </section>
-
-  <div class="lastElement">
-
-  </div>
 
   <script src="anthony-yann/anthony-yann.js"></script>
   <script src="../js/loader.js"></script>

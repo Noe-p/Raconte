@@ -475,19 +475,48 @@ itemAbout.onclick = function(){
 
 // Description image
 
-const indice = document.querySelector('.indice-view');
-var height = 0;
+const cursor = document.querySelector('.cursor');
+const indiceLeCampement = document.querySelector('.indice-leCampement');
+const leCampement = document.querySelector('#le-campement');
+const text = document.querySelector('.text');
+
+const indiceIntro = document.querySelector('.indice-intro');
+const intro = document.querySelector('#intro');
+const textIntro = document.querySelector('.text-intro');
 
 setTimeout(() => {
-  height = document.body.scrollHeight - window.innerHeight;
+  var height = document.body.scrollHeight - window.innerHeight;
+  indiceLeCampement.setAttribute("style", "left: "+leCampement.offsetTop / height * 100+"%;");
+  indiceIntro.setAttribute("style", "left: "+0+"%;");
+
+  window.addEventListener('scroll', () => {
+    cursor.setAttribute("style", "left: "+window.scrollY / height * 100+"%;");
+
+    if((window.scrollY >= 0) && (window.scrollY <= leCampement.offsetTop)){
+      textIntro.classList.add('open');
+    }
+    else{
+      textIntro.classList.remove('open');
+    }
+
+    if(window.scrollY >= leCampement.offsetTop){
+      text.classList.add('open');
+    }
+    else{
+      text.classList.remove('open');
+    }
+
+
+
+    if((window.scrollY <= 50) || (window.scrollY >= leCampement.offsetTop - 50 ) && (window.scrollY <= leCampement.offsetTop + 50)){
+      cursor.classList.add('hover-indice');
+    }
+    else{
+      cursor.classList.remove('hover-indice');
+    }
+
+  });
 }, 1000);
-
-
-
-
-window.addEventListener('scroll', () => {
-  indice.setAttribute("style", "left: "+window.scrollY / height * 100+"%;");
-});
 
 },{}]},["1vHvF","13OT4"], "13OT4", "parcelRequire7bc8")
 
