@@ -1,0 +1,77 @@
+.scrollBar {
+  width: 13vw;
+  height: 2px;
+  background-color: black;
+  position: fixed;
+  right: 25px;
+  top: 25px;
+  z-index: 90;
+}
+.scrollBar .cursor {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: solid 1px black;
+  top: -12px;
+  left: 0;
+  transform: translateX(-50%);
+  transition-duration: 0.3s;
+  transition-property: width, height, top;
+}
+.scrollBar .cursor::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+}
+.scrollBar .cursor.hover-indice {
+  width: 30px;
+  height: 30px;
+  top: -15px;
+}
+.scrollBar a {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: -4px;
+  left: 0;
+  transform: translateX(-50%);
+  background-color: black;
+  z-index: 100;
+}
+.scrollBar a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: solid 0px black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+}
+.scrollBar a:hover::after {
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+}
+.scrollBar p {
+  position: fixed;
+  right: 17vw;
+  text-align: right;
+  top: 0;
+  color: black;
+  font-family: "Text-italic";
+  transition-property: opacity, top;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}

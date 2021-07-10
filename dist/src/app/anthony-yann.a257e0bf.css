@@ -1,5 +1,5 @@
 .scrollBar {
-  width: 200px;
+  width: 13vw;
   height: 2px;
   background-color: black;
   position: fixed;
@@ -40,27 +40,23 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  top: -4px;
+  top: 50%;
   left: 0;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   background-color: black;
   z-index: 100;
   transition: all 0.2s;
 }
 .scrollBar a:hover {
-  width: 12px;
-  height: 12px;
-  top: -5px;
+  width: 13px;
+  height: 13px;
 }
 .scrollBar p {
   position: fixed;
-  right: 250px;
+  right: 17vw;
   text-align: right;
   top: 0;
   color: black;
   font-family: "Text-italic";
-  transition-property: opacity, top;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in;
 }
 /*# sourceMappingURL=anthony-yann.a257e0bf.css.map */
