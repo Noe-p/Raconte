@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raconte</title>
+  <link rel="stylesheet" type="text/css" href="cca34c7959a66a988f0694a00a241721">
+  <link rel="stylesheet" type="text/css" href="2bca68858ca85fb62837bb3558005fb9">
+  <link rel="stylesheet" type="text/css" href="53f5e569d7219ffcc5a460d1cf5b0b29">
+  <link rel="stylesheet" type="text/css" href="2d60a27f6346184742c7c301b85e460e">
+  <link rel="stylesheet" type="text/css" href="1faaf362e0ea8b4f0eca8f8f0059114b">
+  <link rel="stylesheet" type="text/css" href="fd7af23665eaf3e9d3314d196855b8e5">
+
+</head>
+
+<body>
+
+  <div class="loader">
+    <h1>
+      <span>R</span>
+      <span>a</span>
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>e</span>
+    </h1>
+  </div>
+
+  <aside class="navbar white">
+    <a class="item_nav_index">Raconte</a>
+    <div class="item_nav_left">
+      <a class="item-menu">Menu</a>
+      <a class="item-about">À propos</a>
+    </div>
+  </aside>
+
+  <div class="scrollBar"></div>
+
+
+  <section class="ay hidden">
+    <header>
+      <h1>Anthony et Yann</h1>
+      <p>Une recontre dans un camping perdu dans le desert des agriates en Corse. Anthony et Yann sont chargé de s'occuper du potagé du camping.</p>
+    </header>
+
+    <div class="reportage">
+      <h2 id="leCampement">Le campement</h2>
+      <div class="once-left">
+        <img src="a2de4da4a394ca217f65c5f584a3786d" alt="arrive">
+        <p class="desc-right small">Arrivé dans le campement caché dans la foret.</p>
+      </div>
+
+      <div class="three-inline">
+        <img src="90feb5ef9431936ce1e576aaefbc2fad" alt="campement1">
+        <img src="4493f40dd62000875d8519644dca6b14" alt="campement2">
+        <img src="297eeabb4fbda1a7d32ff0aff834d6d8" alt="campement3">
+        <p class="desc-top auto">Les différentes parties du campement.</p>
+      </div>
+
+      <div class="once-right">
+        <img src="9306c2247075b5e9f2d3974c601c085c" alt="chien">
+        <p class="desc-left small">Vanille avec les deux chiens.</p>
+      </div>
+
+      <div class="once-left small">
+        <img src="362d806ba95d35a2a9f0e2fdb7557632" alt="frigo">
+        <p class="desc-bottom medium">Anthony à créé un frigo du désert pour garder ses aliments au frais.</p>
+      </div>
+
+      <div class="beurre">
+        <img src="5d3a5700b9a7f3925cafb1d395c7d24c" alt="beurre">
+        <p class="desc-bottom medium">Anthony nous montre le bon fonctionnement du frigo avec le test du "couteau planté dans le beurre".</p>
+      </div>
+
+      <h2 id="jus">Les jus de fruits</h2>
+      <div class="grid">
+        <div>
+          <img src="5f11cf61706691891c905500f91c6461" alt="jus1">
+          <p class="desc-top medium">En rammassant des pommes sur des vergers abandonnés, Anthony et Yann produisent des jus de fruits.</p>
+        </div>
+        <div>
+          <img src="e0e602eeb4d0ad1701ca1ad2c6a37d9d" alt="jus2">
+          <p class="desc-top auto">Jus de fruit pomme-gingembre.</p>
+        </div>
+        <div>
+          <img src="1547c03dd9b5684922502e069f343223" alt="jus4">
+        </div>
+        <div>
+          <img src="f0965b43bfa8938fad8c8435bb987da8" alt="jus3">
+          <p class="desc-bottom auto">Pressoir pour jus de fruit.</p>
+        </div>
+      </div>
+
+      <h2 id="potagé">Le potagé</h2>
+      <div class="once-center">
+        <img src="cb6a701d9dc51fcabfb5994591eb9830" alt="agriculeur">
+        <p class="desc-bottom auto">Raccourci à travers la végétation pour accéder au potagé.</p>
+      </div>
+
+      <div class="double-inline">
+        <img src="8cca929f489f1c005185388ce17f2196" alt="potage1">
+        <img src="ae43ce83e16876bde58a2a0f653dabec" alt="potage2">
+        <p class="desc-top auto">Anthony nous montre l'étendu du potagé.</p>
+      </div>
+
+      <div class="once-left">
+        <img src="d85bc3ee93dbf58b78892fe9baa1eae0" alt="agriculteur1">
+      </div>
+
+      <div class="double-inline">
+        <img src="22120bfcdfa8741306ae14eeea472468" alt="agriculteur2">
+        <div>
+          <img src="ed24992d619fbdf36d04eaba95213eea" alt="agriculteur3">
+          <p class="desc-top auto">Les deux agriculteurs devant les plants de tomates.</p>
+        </div>
+      </div>
+
+      <div class="once-center big">
+        <img src="73b2ccc36e32674e80b0a980ceacd5f4" alt="quatriple">
+        <p class="desc-bottom auto">Fonctionnement de la binette à dents.</p>
+      </div>
+
+      <div class="once-right">
+        <img src="91ec8c69006177990ca901517ceda62b" alt="explication">
+        <p class="desc-left small">Quelques explications devant la plantation de tomate.</p>
+      </div>
+
+      <div class="once-center small">
+        <img src="faed3bd0bb2551f208cedb7bc7ec191a" alt="yannFleure">
+      </div>
+    </div>
+
+
+  </section>
+
+  <script src="afb33e85dc08382874bae6670fcab437"></script>
+  <script src="f2ab70482ee7ab8cedb8c984ea18a667"></script>
+  <script src="007708f24efcdb116d74c5e90bf04975"></script>
+</body>
+
+</html>

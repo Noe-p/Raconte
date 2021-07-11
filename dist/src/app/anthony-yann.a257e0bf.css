@@ -13,17 +13,17 @@
   height: 24px;
   border-radius: 50%;
   border: solid 1px black;
-  top: -12px;
+  top: 50%;
   left: 0;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   transition-duration: 0.3s;
   transition-property: width, height, top;
 }
 .scrollBar .cursor::after {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -33,7 +33,6 @@
 .scrollBar .cursor.hover-indice {
   width: 30px;
   height: 30px;
-  top: -15px;
 }
 .scrollBar a {
   position: absolute;

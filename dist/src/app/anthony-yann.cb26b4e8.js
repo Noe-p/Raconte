@@ -509,7 +509,7 @@ setTimeout(() => {
 
 
     // Animation curseur au passage d'un pointer
-    if(window.scrollY <= 50){
+    if(window.scrollY <= 200){
       cursor.classList.add('hover-indice');
     }
     else{
@@ -517,7 +517,7 @@ setTimeout(() => {
     }
 
     for (var i = 0; i < titres.length; i++) {
-      if((window.scrollY >= titres[i].offsetTop - 50 ) && (window.scrollY <= titres[i].offsetTop + 50)){
+      if((window.scrollY >= titres[i].offsetTop - 200 ) && (window.scrollY <= titres[i].offsetTop + 200)){
         cursor.classList.toggle('hover-indice');
       }
     }

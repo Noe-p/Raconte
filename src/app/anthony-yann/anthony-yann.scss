@@ -1,8 +1,9 @@
 html, body {
   overflow-y: scroll;
   scrollbar-width: none;
-  overflow-x: hidden;
   scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -28,10 +29,7 @@ body::-webkit-scrollbar {
     font-family: 'Text-bold';
     font-size: 3vw;
     color: rgb(62, 62, 62);
-  }
-
-  p{
-    font-size: 1.2em;
+    margin-top: 150px;
   }
 
   transition: all 1s ease-out;
@@ -51,6 +49,7 @@ header{
 
   p{
     width: 50%;
+    font-size: 1.5em;
   }
 
   h1{
@@ -60,7 +59,7 @@ header{
   }
 }
 
-.campement{
+.reportage{
   margin:50px;
 
 
@@ -73,11 +72,14 @@ header{
     }
   }
 
-  .img-arrive{
+  .once-left{
     width: 70vw;
   }
+  .once-left.small{
+    width: 45vw;
+  }
 
-  .img-campement{
+  .three-inline{
     display:flex;
     justify-content: space-between;
 
@@ -86,14 +88,10 @@ header{
     }
   }
 
-  .chien{
+  .once-right{
     left: 100%;
     transform: translateX(-100%);
     width: 60vw;
-  }
-
-  .frigo{
-    width: 45vw;
   }
 
   .beurre{
@@ -101,5 +99,37 @@ header{
     left: 100%;
     transform: translateX(-100%);
     width: 40vw;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 30px;
+    margin-top: 10px;
+  }
+
+  .once-center{
+    display: flex;
+    justify-content: center;
+
+    img{
+      width: 85vw;
+    }
+  }
+  .once-center.big{
+    img{
+      width: 95vw;
+    }
+  }
+  .once-center.small{
+    img{
+      width: 40vw;
+    }
+  }
+
+  .double-inline{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 30px;
   }
 }

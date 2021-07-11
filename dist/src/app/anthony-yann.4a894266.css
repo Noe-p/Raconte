@@ -1,8 +1,9 @@
 html, body {
   overflow-y: scroll;
   scrollbar-width: none;
-  overflow-x: hidden;
   scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -29,9 +30,7 @@ body::-webkit-scrollbar {
   font-family: "Text-bold";
   font-size: 3vw;
   color: #3e3e3e;
-}
-.ay p {
-  font-size: 1.2em;
+  margin-top: 150px;
 }
 
 .ay.hidden {
@@ -47,6 +46,7 @@ header {
 }
 header p {
   width: 50%;
+  font-size: 1.5em;
 }
 header h1 {
   font-family: "Text-titre";
@@ -54,38 +54,62 @@ header h1 {
   margin: 0;
 }
 
-.campement {
+.reportage {
   margin: 50px;
 }
-.campement div {
+.reportage div {
   margin-top: 100px;
   position: relative;
 }
-.campement div img {
+.reportage div img {
   width: 100%;
 }
-.campement .img-arrive {
+.reportage .once-left {
   width: 70vw;
 }
-.campement .img-campement {
+.reportage .once-left.small {
+  width: 45vw;
+}
+.reportage .three-inline {
   display: flex;
   justify-content: space-between;
 }
-.campement .img-campement img {
+.reportage .three-inline img {
   width: 30vw;
 }
-.campement .chien {
+.reportage .once-right {
   left: 100%;
   transform: translateX(-100%);
   width: 60vw;
 }
-.campement .frigo {
-  width: 45vw;
-}
-.campement .beurre {
+.reportage .beurre {
   margin-top: -200px;
   left: 100%;
   transform: translateX(-100%);
   width: 40vw;
+}
+.reportage .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 30px;
+  margin-top: 10px;
+}
+.reportage .once-center {
+  display: flex;
+  justify-content: center;
+}
+.reportage .once-center img {
+  width: 85vw;
+}
+.reportage .once-center.big img {
+  width: 95vw;
+}
+.reportage .once-center.small img {
+  width: 40vw;
+}
+.reportage .double-inline {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 30px;
 }
 /*# sourceMappingURL=anthony-yann.4a894266.css.map */

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.desc-right, .desc-top, .desc-bottom, .desc-left {
+  position: absolute;
+  font-family: "Text-italic";
+  width: auto;
+  font-size: 1.2vw;
+}
+.desc-right::after, .desc-top::after, .desc-bottom::after, .desc-left::after {
+  display: block;
+  font-size: 1vw;
+}
+
+.desc-right {
+  top: 50%;
+  left: 102%;
+  transform: translateY(-50%);
+}
+.desc-right::after {
+  content: "←";
+}
+
+.desc-top {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.desc-top::after {
+  content: "↓";
+  position: absolute;
+  bottom: -10px;
+  left: -40px;
+}
+
+.desc-bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.desc-bottom::before {
+  content: "↑";
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
+
+.desc-left {
+  top: 50%;
+  right: 102%;
+  transform: translateY(-50%);
+  text-align: right;
+}
+.desc-left::after {
+  content: "→";
+  position: relative;
+  right: 0;
+}
+
+.desc-bottom.small, .desc-top.small, .desc-right.small, .desc-left.small {
+  width: 200px;
+}
+
+.desc-bottom.medium, .desc-top.medium, .desc-right.medium, .desc-left.medium {
+  width: 400px;
+}
+
+.desc-bottom.large, .desc-top.large, .desc-right.large, .desc-left.large {
+  width: 700px;
+}
