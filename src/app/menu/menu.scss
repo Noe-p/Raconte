@@ -7,15 +7,12 @@
   background-color: white;
   color: #121a27;
 
-  transition: all 1s ease-out;
-  transition-delay: 0.3s;
 }
 
 .menu.hidden{
   opacity: 0;
   top: 150px;
 }
-
 
 .reportage{
   display: flex;
@@ -55,7 +52,7 @@
   }
 }
 
-@media all and (max-device-width:480px) {
+@media all and (max-device-width:800px) {
   .menu{
     width: 100vw;
     display: flex;

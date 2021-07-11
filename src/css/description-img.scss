@@ -71,3 +71,28 @@
 .desc-bottom.large, .desc-top.large, .desc-right.large, .desc-left.large{
   width: 700px;
 }
+
+@media all and (max-device-width:800px) {
+
+  .desc-right, .desc-top, .desc-bottom, .desc-left,
+  .desc-bottom.small, .desc-top.small, .desc-right.small, .desc-left.small,
+  .desc-bottom.medium, .desc-top.medium, .desc-right.medium, .desc-left.medium,
+  .desc-bottom.large, .desc-top.large, .desc-right.large, .desc-left.large
+  {
+    font-size: 4vw;
+    position: relative;
+    width: auto;
+
+    top: 100%;
+    left: 0;
+    transform: translateX(0);
+    text-align: center;
+
+    &::after{
+      content:'';
+      position: absolute;
+      top:-15px;
+      left: -40px;
+    }
+  }
+}

@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Titre";
+  src: url("41f3a981e22e25e12c44a4d05c69e10a");
+}
+@font-face {
+  font-family: "Text-black";
+  src: url("1d725667e21eeae51c7f1e23c441a046");
+}
+@font-face {
+  font-family: "Text-bold";
+  src: url("d4f1513cc6f4edd220199e1ff80d193c");
+}
+@font-face {
+  font-family: "Text";
+  src: url("f925554b1db1460d33b957eb455f7cff");
+}
+@font-face {
+  font-family: "Text-italic";
+  src: url("f48fc44b8c0005562a5a317baf225ed0");
+}
+@font-face {
+  font-family: "Text-titre";
+  src: url("848448184154feaa261828063eef5b45");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: "Text";
+}
+.loader {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 100;
+  opacity: 1;
+}
+.loader h1 {
+  color: black;
+  font-family: "Titre";
+  font-size: 10vw;
+  display: block;
+  letter-spacing: -1vw;
+}
+.loader h1 span {
+  animation-name: letter-wave;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  position: relative;
+  top: 0;
+  opacity: 1;
+}
+.loader h1 span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loader h1 span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.loader h1 span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.loader h1 span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.loader h1 span:nth-child(6) {
+  animation-delay: 1s;
+}
+.loader h1 span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+@keyframes letter-wave {
+  10% {
+    top: -25%;
+  }
+  20% {
+    top: 0;
+  }
+}
+.loader.hidden {
+  opacity: 0;
+  transform: translate(100%, -100%);
+  animation-name: loader-end;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+.loader.open {
+  animation-name: loader-open;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  transform: translate(0, 0);
+  opacity: 1;
+  z-index: 100;
+  border-radius: 0;
+}
+@keyframes loader-end {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+    z-index: 100;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 1;
+    z-index: 100;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+  }
+}
+@keyframes loader-open {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+    z-index: 100;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+    z-index: 100;
+    border-radius: 0;
+  }
+}
+@media all and (max-device-width: 480px) {
+  body {
+    width: auto;
+  }
+}

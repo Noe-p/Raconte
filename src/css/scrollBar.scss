@@ -68,3 +68,22 @@
   }
 
 }
+
+
+@media all and (max-device-width:800px) {
+  .scrollBar{
+    top: 50px;
+    left: 5vw;
+    width: 90vw;
+
+    a:hover{
+      width: 10px;
+      height: 10px;
+    }
+
+    p{
+      display: none;
+    }
+  }
+
+}

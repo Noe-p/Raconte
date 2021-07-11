@@ -93,7 +93,6 @@
 
       p{
         position: absolute;
-        top: 85%;
         left:40%;
         width: 150px;
         font-size: 1vw;
@@ -134,7 +133,7 @@
   }
 }
 
-@media all and (max-device-width:480px) {
+@media all and (max-device-width:800px) {
 
   .about{
     top: 100px;

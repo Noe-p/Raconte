@@ -1,0 +1,73 @@
+.menu {
+  display: block;
+  position: relative;
+  top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  color: #121a27;
+}
+
+.menu.hidden {
+  display: none;
+}
+
+.reportage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reportage h1 {
+  font-family: "Text-titre";
+  font-size: 5vw;
+  margin: 0 10px 0 0;
+  padding-left: 20px;
+  border-bottom: solid 1px #121a27;
+  text-align: left;
+  width: 90%;
+  transition: all 0.3s;
+}
+.reportage h1:hover {
+  background-color: #121a27;
+  color: white;
+  cursor: pointer;
+}
+
+.front-img img {
+  position: absolute;
+  opacity: 0;
+  width: 400px;
+  transition: opacity 0.5s;
+}
+.front-img img.open {
+  opacity: 1;
+}
+
+@media all and (max-device-width: 480px) {
+  .menu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .reportage {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 0 0 0;
+  }
+  .reportage h1 {
+    font-family: "Text-titre";
+    font-size: 3em;
+    margin: 0 0 0 0;
+    padding-left: 0;
+    text-align: left;
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  .front-img {
+    display: none;
+  }
+}

@@ -58,4 +58,19 @@
   color: black;
   font-family: "Text-italic";
 }
+
+@media all and (max-device-width: 800px) {
+  .scrollBar {
+    top: 50px;
+    left: 5vw;
+    width: 90vw;
+  }
+  .scrollBar a:hover {
+    width: 10px;
+    height: 10px;
+  }
+  .scrollBar p {
+    display: none;
+  }
+}
 /*# sourceMappingURL=anthony-yann.a257e0bf.css.map */
