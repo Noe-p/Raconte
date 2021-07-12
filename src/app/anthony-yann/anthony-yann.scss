@@ -1,13 +1,16 @@
 html, body {
-  overflow-y: scroll;
   scrollbar-width: none;
   scroll-behavior: smooth;
   width: 100vw;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
+  overflow-y: auto;
 }
 
+html.hidden{
+  overflow-y: hidden;
+}
 body::-webkit-scrollbar {
   display: none;
 }
@@ -23,7 +26,7 @@ body::-webkit-scrollbar {
   padding-top: 100px;
   color: #121a27;
   padding-bottom: 100px;
-
+  opacity: 1;
 
   h2{
     font-family: 'Text-bold';
@@ -33,11 +36,12 @@ body::-webkit-scrollbar {
   }
 
   transition: all 1s ease-out;
-  transition-delay: 0.3s;
+  transition-delay: 0.5s;
 }
 
 .ay.hidden{
-  display: none;
+  opacity: 0;
+  padding-top: 150px;
 }
 
 header{
@@ -66,15 +70,27 @@ header{
   div{
     margin-top: 100px;
     position: relative;
+    top: 0;
+    opacity: 1;
 
     img{
       width: 100%;
     }
+
+    transition: all 1s;
+    transition-timing-function:ease-out;
   }
+
+  div.close{
+    top: 100px;
+    opacity: 0;
+  }
+
 
   .once-left{
     width: 70vw;
   }
+
   .once-left.small{
     width: 45vw;
   }

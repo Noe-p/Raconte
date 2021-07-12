@@ -8,6 +8,11 @@
   color: #121a27;
   margin-bottom: 100px;
 
+  html.hidden{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
   h1{
     font-family: 'Text-titre';
     font-size: 3vw;
@@ -24,7 +29,7 @@
   }
 
   transition: all 1s ease-out;
-  transition-delay: 0.3s;
+  transition-delay: 0.5s;
 }
 
 .about.hidden{

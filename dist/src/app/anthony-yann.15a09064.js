@@ -473,6 +473,25 @@ itemAbout.onclick = function(){
   setTimeout(() => {  window.location.replace("about.html"); }, 1000);
 };
 
+//animation slide img
+
+let img = document.getElementsByTagName('div');
+setTimeout(() => {
+  window.addEventListener('scroll', () => {
+    for (var i = 5; i < img.length; i++) {
+
+      if(window.scrollY > img[i].offsetTop + 300 - screen.availHeight){
+        img[i].classList.remove("close");
+      }else {
+        img[i].classList.add("close");
+      }
+
+    }
+
+  });
+
+}, 1000);
+
 },{}]},["1vHvF","13OT4"], "13OT4", "parcelRequire7bc8")
 
 //# sourceMappingURL=anthony-yann.15a09064.js.map

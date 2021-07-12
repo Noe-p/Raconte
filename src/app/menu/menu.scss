@@ -1,3 +1,8 @@
+html.hidden{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 .menu{
   display: block;
   position: relative;
@@ -7,6 +12,8 @@
   background-color: white;
   color: #121a27;
 
+  transition: all 1s ease-out;
+  transition-delay: 0.5s;
 }
 
 .menu.hidden{

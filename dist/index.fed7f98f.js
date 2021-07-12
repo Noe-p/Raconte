@@ -452,6 +452,7 @@ const ay = document.querySelector('.ay');
 window.addEventListener('load', () => {
   loader.classList.add('hidden');
 
+  document.documentElement.classList.remove('hidden');
   if(menu){
     menu.classList.remove('hidden');
   }
