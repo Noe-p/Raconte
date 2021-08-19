@@ -1,6 +1,6 @@
 <template>
   <aside class="navbar">
-    <router-link to="/" class="item_nav_index open">Raconte</router-link>
+    <router-link to="/" class="item-home open">Raconte</router-link>
     <div class="item_nav_left">
       <router-link to="/menu" class="item-menu">Menu</router-link>
       <router-link to="/about" class="item-about">À propos</router-link>
@@ -8,6 +8,7 @@
   </aside>
   <router-view/>
 </template>
+
 
 <style lang="scss">
 #app {
@@ -52,7 +53,7 @@
     cursor: pointer;
   }
 
-  .item_nav_index{
+  .item-home{
     position: absolute;
     left: 10px;
   }
@@ -89,7 +90,7 @@
     align-items: center;
     justify-content:space-around;
 
-    .item_nav_index{
+    .item-home{
       position: relative;
       left: 0;
     }

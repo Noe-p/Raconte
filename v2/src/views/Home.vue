@@ -82,6 +82,12 @@ export default {
 
   },
   mounted (){
+    document.querySelector('.navbar').classList.remove('white');
+    document.querySelector('.item-home').classList.remove('open');
+    document.querySelector('.item-about').classList.remove('open');
+    document.querySelector('.item-menu').classList.remove('open');
+    document.querySelector('.item-home').classList.add('open');
+
     // Scroll horizontal
     const lscroll = new LocomotiveScroll({
       el: document.querySelector('[data-scroll-container]'),
@@ -172,7 +178,7 @@ export default {
       }
 
       direction = change_img;
-      
+
     });
 
     //Responsive

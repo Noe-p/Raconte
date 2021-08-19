@@ -1,6 +1,6 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
-// Scroll horizontal
+// Scroll vertical
 
 const lscroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
