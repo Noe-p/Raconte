@@ -83,9 +83,9 @@ html{
   background-color: white;
   color: #121a27;
   width: 100vw;
-  height: auto;
+  height: 100vh;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 
   transition: all 1s ease-out;
   transition-delay: 0.5s;

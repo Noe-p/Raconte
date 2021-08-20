@@ -45,26 +45,28 @@
       <figure class="gallery__item" data-scroll data-scroll-speed="1">
         <h2>Anthony et Yann</h2>
 
-        <div class="gallery__item-img">
-          <img src="@/assets/img/anthony-yann.webp" alt="antonio-yann">
-          <div class="description">
-            <p>Rencontre dans un camping perdu <br>dans le désert des Agriates en Corse. <br>Anthony et Yann sont chargés de<br> s'occuper du potager du camping.</p>
+        <a href="#">
+          <div class="gallery__item-img">
+            <img src="@/assets/img/anthony-yann.webp" alt="antonio-yann">
+            <div class="description">
+              <p>Rencontre dans un camping perdu <br>dans le désert des Agriates en Corse. <br>Anthony et Yann sont chargés de<br> s'occuper du potager du camping.</p>
+            </div>
+            <a href="#" class="ay">
+              <svg class="macaron" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <path id="curve" fill="transparent" d="
+                    M 200, 200
+                    m -160, 0
+                    a 160,160 0 1,0 320,0
+                    a 160,160 0 1,0 -320,0" />
+                <text>
+                  <textPath href="#curve" fill="#b4630e">
+                    voir le reportage
+                  </textPath>
+                </text>
+              </svg>
+            </a>
           </div>
-          <a href="#" class="ay">
-            <svg class="macaron" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-              <path id="curve" fill="transparent" d="
-                  M 200, 200
-                  m -160, 0
-                  a 160,160 0 1,0 320,0
-                  a 160,160 0 1,0 -320,0" />
-              <text>
-                <textPath href="#curve" fill="#b4630e">
-                  voir le reportage
-                </textPath>
-              </text>
-            </svg>
-          </a>
-        </div>
+        </a>
       </figure>
 
     </div>
@@ -220,6 +222,7 @@ header {
     width: 50vw;
     line-height: 0.8;
     margin: 20vh 11vw 0 7vw;
+    text-align: left;
 
     .title1 {
         font-family: 'Titre';
@@ -277,6 +280,7 @@ header {
     width: 420px;
     word-break: break-all;
 
+
     h2 {
         font-family: 'Titre';
         color: white;
@@ -286,6 +290,7 @@ header {
 
     .gallery__item-img {
         position: relative;
+
 
         img {
             width: 100%;

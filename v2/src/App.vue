@@ -65,7 +65,7 @@
 
     top: 100%;
     left: 0;
-    height: 2px;
+    height: 1.5px;
     background-color: white;
   }
 
