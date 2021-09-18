@@ -9,7 +9,9 @@
         <span class="title1" data-scroll="" data-scroll-speed="5" data-scroll-direction="vertical">
           Raconte
         </span>
-        <span class="title2" data-scroll="" data-scroll-speed="-2" data-scroll-direction="vertical">Ceci est une petite citation.</span>
+        <span class="title2" data-scroll="" data-scroll-speed="-2" data-scroll-direction="vertical">
+          {{ this.reportages[0].titre }}
+        </span>
       </header>
 
       <Reportage />
@@ -21,6 +23,7 @@
 </template>
 
 <script>
+import { reportages } from '@/data.js'
 import LocomotiveScroll from 'locomotive-scroll';
 import Stickman from '@/components/Stickman.vue';
 import Reportage from '@/components/Reportage.vue';
@@ -31,12 +34,21 @@ export default {
     Stickman,
     Reportage
   },
+  data () {
+    return {
+      reportages: []
+    }
+  },
+  beforeMount(){
+    this.reportages = reportages;
+  },
   mounted (){
     document.querySelector('.navbar').classList.remove('white');
     document.querySelector('.item-home').classList.remove('open');
     document.querySelector('.item-about').classList.remove('open');
     document.querySelector('.item-menu').classList.remove('open');
     document.querySelector('.item-home').classList.add('open');
+
 
     // Scroll horizontal
     const lscroll = new LocomotiveScroll({
@@ -236,7 +248,7 @@ header {
         }
     }
 
-    
+
 
     .arrow-top {
         display: block;

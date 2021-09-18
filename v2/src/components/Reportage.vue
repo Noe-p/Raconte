@@ -28,13 +28,9 @@
 </template>
 
 <script>
-import { reportages } from '@/data.js'
 
 export default {
-  name: 'Reportage',
-  mounted: function () {
-    console.log(reportages[0].description);
-  }
+  name: 'Reportage'
 }
 </script>
 
