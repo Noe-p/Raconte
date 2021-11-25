@@ -1,5 +1,5 @@
 <template>
-
+<div>
 <Stickman />
 
 <main data-scroll-container="">
@@ -20,6 +20,7 @@
     <a class="arrow-top" href="#"><img src="@/assets/img/flecheTop.png" alt="flecheTop"></a>
   </div>
 </main>
+</div>
 </template>
 
 <script>
